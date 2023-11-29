@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Cinematenblogtest</title>
+    <link>https://cinematen.be/posts/</link>
+    <description>Recent content in Posts on Cinematenblogtest</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>nl-be</language>
+    <lastBuildDate>Wed, 29 Nov 2023 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://cinematen.be/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Indiana Jones and the Dial of Destiny</title>
+      <link>https://cinematen.be/posts/indiana-jones-and-the-dial-of-destiny/</link>
+      <pubDate>Wed, 29 Nov 2023 00:00:00 +0000</pubDate>
+      <guid>https://cinematen.be/posts/indiana-jones-and-the-dial-of-destiny/</guid>
+      <description>Indiana Jones 5 was de meest geanticipeerde film voor 2023 van Yorrick en omdat Maarten telkens weigert om hem te bekijken heeft Yorrick zijn allereerste geschreven review volledig laten draaien rond dit (wellicht) laatste avontuur van Indy&amp;hellip;</description>
+    </item>
+  </channel>
+</rss>
