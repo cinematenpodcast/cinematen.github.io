@@ -3581,6 +3581,8 @@ p {
   color: var(--light-blue);
   margin-top: 0;
   margin-bottom: 30px;
+  font-family: Rubik Mono One, sans-serif;
+  font-size: 38px;
 }
 
 .titel.waar {
@@ -3592,6 +3594,8 @@ p {
   margin-top: 0;
   margin-bottom: 0;
   padding-top: 10px;
+  font-family: Rubik Mono One, sans-serif;
+  font-size: 38px;
 }
 
 .titel.wie {
@@ -3602,6 +3606,8 @@ p {
   margin-top: 0;
   margin-bottom: 0;
   padding-top: 0;
+  font-family: Rubik Mono One, sans-serif;
+  font-size: 38px;
 }
 
 .titel.blog {
@@ -3609,6 +3615,8 @@ p {
   text-align: right;
   margin-top: 0;
   margin-bottom: 30px;
+  font-family: Rubik Mono One, sans-serif;
+  font-size: 38px;
 }
 
 .section {
@@ -3780,6 +3788,7 @@ p {
   color: #fff;
   text-align: center;
   text-transform: uppercase;
+  align-self: center;
   margin-top: 0;
   margin-bottom: 0;
   margin-right: 20px;
@@ -4004,10 +4013,10 @@ p {
 }
 
 .pagination {
-  display: flex;
   flex-direction: row;
-  align-items: center;
   justify-content: center;
+  align-items: center;
+  display: flex;
 }
 
 .page-count {
