@@ -3592,9 +3592,9 @@ p {
   order: -1;
   align-self: flex-end;
   margin-top: 0;
-  margin-bottom: 0;
+  margin-bottom: 40px;
   padding-top: 10px;
-  padding-bottom: 40px;
+  padding-bottom: 0;
   font-family: Rubik Mono One, sans-serif;
   font-size: 38px;
 }
@@ -3605,9 +3605,9 @@ p {
   order: -1;
   align-self: flex-end;
   margin-top: 0;
-  margin-bottom: 0;
+  margin-bottom: 40px;
   padding-top: 0;
-  padding-bottom: 40px;
+  padding-bottom: 0;
   font-family: Rubik Mono One, sans-serif;
   font-size: 38px;
 }
