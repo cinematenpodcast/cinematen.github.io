@@ -3734,8 +3734,15 @@ p {
 }
 
 .div-hero.horizontal {
+  flex-direction: row;
   margin-bottom: 0;
   display: flex;
+}
+
+.div-hero.horizontal.bloglist {
+  grid-column-gap: 20px;
+  grid-row-gap: 20px;
+  flex-direction: row;
 }
 
 .icon {
@@ -5003,6 +5010,7 @@ p {
     grid-area: span 1 / span 1 / span 1 / span 1;
   }
 }
+
 /* Default for mobile: display first 3 posts */
 .post {
   display: none;
