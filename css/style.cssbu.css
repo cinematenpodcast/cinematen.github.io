@@ -3548,7 +3548,7 @@ p {
 .button.navbar {
   height: auto;
   align-self: center;
-  margin-top: 7px;
+  margin-top: 10px;
   padding-top: 15px;
   padding-bottom: 15px;
   font-size: 14px;
@@ -3704,7 +3704,6 @@ p {
 }
 
 .container.navbar {
-  margin-top: 0;
   display: block;
 }
 
@@ -4227,10 +4226,6 @@ p {
     font-size: 15px;
   }
 
-  .button.navbar {
-    margin-top: 6px;
-  }
-
   .button.leesblog {
     align-self: flex-end;
   }
@@ -4585,13 +4580,8 @@ p {
 
   .nav-link {
     color: #67fbe9;
-    text-align: center;
-    justify-content: flex-end;
-    align-self: flex-end;
-    margin-left: 0;
-    margin-right: 0;
-    padding: 0 17px 0 0;
-    font-size: 11px;
+    margin-right: 10px;
+    padding: 0 5px;
     text-decoration: none;
   }
 
@@ -4629,14 +4619,13 @@ p {
   }
 
   .button.navbar {
-    max-height: none;
     white-space: nowrap;
     order: -1;
     align-self: center;
     margin-top: 0;
-    margin-left: 9px;
-    padding: 8px 5px;
-    font-size: 9px;
+    margin-left: 10px;
+    padding: 10px 5px;
+    font-size: 10px;
   }
 
   .button.leesmeer {
@@ -4747,10 +4736,6 @@ p {
   }
 
   .container.navbar {
-    height: auto;
-    max-width: 100vw;
-    object-fit: contain;
-    align-items: center;
     display: flex;
   }
 
@@ -4838,19 +4823,10 @@ p {
   }
 
   .nav-menu {
-    background-color: var(--dark-blue);
+    background-color: rgba(0, 0, 0, 0);
+    flex: 0 auto;
     order: 1;
-    padding-top: 0;
-    padding-bottom: 10px;
-    position: absolute;
-    right: 0;
-  }
-
-  .nav-menu.home {
-    margin-top: 15px;
-    margin-bottom: auto;
-    padding-bottom: 0;
-    position: static;
+    align-self: center;
   }
 
   .portret {
@@ -4943,8 +4919,7 @@ p {
   }
 
   .thumbnail {
-    max-width: 90vw;
-    align-self: center;
+    max-width: none;
     margin-bottom: 10px;
   }
 
@@ -4997,7 +4972,7 @@ p {
   .grid-layout {
     grid-row-gap: 50px;
     grid-template-rows: auto auto;
-    margin-right: 20px;
+    margin-right: 10px;
   }
 
   .nieuws-list-item {
@@ -5024,36 +4999,6 @@ p {
   .nieuws-list-item.reviews-and-blogs {
     margin-top: 30px;
   }
-
-  .navbutton {
-    color: var(--light-blue);
-  }
-
-  .navbutton.w--open {
-    background-color: rgba(0, 0, 0, 0);
-    order: 1;
-    position: static;
-  }
-
-  .icon-4 {
-    color: var(--light-blue);
-  }
-
-  .menu_bg {
-    text-align: right;
-    background-color: rgba(19, 27, 46, .8);
-    border-radius: 3px;
-    flex-direction: column;
-    align-items: flex-end;
-    padding-left: 0;
-    padding-right: 5px;
-    display: block;
-    position: absolute;
-    top: 0%;
-    bottom: 0%;
-    left: auto;
-    right: 0%;
-  }
 }
 
 #w-node-_941a18d5-dec1-d1e8-8dfb-39d6d6f2b2fb-02cd3e79, #w-node-_5100c495-b7e7-747b-6683-a7e51aa292d9-02cd3e79, #w-node-_636f1c77-5651-4a02-b7da-01ab03c37a73-02cd3e79, #w-node-_859af235-8edd-901c-43ee-900f69fdbb46-02cd3e79, #w-node-_5761095e-8358-cd68-5473-e627e0799147-02cd3e79, #w-node-_28845e5d-1cd6-ddcf-a888-e3486fd9ce53-02cd3e79, #w-node-e277b0e3-093c-2aa2-3568-d7055595137a-02cd3e79, #w-node-_02460ea1-5fe5-d227-1737-be6fd549ecc0-02cd3e79, #w-node-c7c4637e-0bee-08b5-944b-c1dab34b08b3-02cd3e79, #w-node-ea701243-5e20-c558-3981-d45eabfbd9ac-02cd3e79, #w-node-df9f1cf1-c09f-e2da-1a78-29f3382eb29e-02cd3e79, #w-node-_3b80eafd-b7c7-d0d0-9142-c9d9aa794558-02cd3e79, #w-node-ea701243-5e20-c558-3981-d45eabfbd9ac-3dd2812a, #w-node-df9f1cf1-c09f-e2da-1a78-29f3382eb29e-3dd2812a, #w-node-_3b80eafd-b7c7-d0d0-9142-c9d9aa794558-3dd2812a, #w-node-_1552942b-7aa7-1807-1365-45056eabeb41-27e26995, #w-node-_1552942b-7aa7-1807-1365-45056eabeb43-27e26995, #w-node-_1552942b-7aa7-1807-1365-45056eabeb44-27e26995 {
@@ -5065,6 +5010,7 @@ p {
     grid-area: span 1 / span 1 / span 1 / span 1;
   }
 }
+
 .post {
   display: none;
 }
