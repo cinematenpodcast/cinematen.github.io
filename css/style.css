@@ -3463,6 +3463,7 @@ p {
   font-family: Rubik, sans-serif;
   font-size: 17px;
   font-weight: 300;
+  line-height: 28px;
 }
 
 .header {
@@ -3663,7 +3664,7 @@ p {
   font-family: Rubik, sans-serif;
   font-size: 20px;
   font-weight: 300;
-  line-height: 1.2;
+  line-height: 28px;
   display: flex;
 }
 
@@ -4031,6 +4032,7 @@ p {
 .korteinhoudtext {
   color: #fff;
   margin-top: 10px;
+  line-height: 28px;
 }
 
 .korteinhoudtext.nieuwslist {
@@ -4997,6 +4999,7 @@ p {
   .grid-layout {
     grid-row-gap: 50px;
     grid-template-rows: auto auto;
+    margin-left: 20px;
     margin-right: 20px;
   }
 
@@ -5065,6 +5068,7 @@ p {
     grid-area: span 1 / span 1 / span 1 / span 1;
   }
 }
+
 .post {
   display: none;
 }
