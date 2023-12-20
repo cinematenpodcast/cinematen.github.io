@@ -3466,6 +3466,15 @@ p {
   line-height: 28px;
 }
 
+a {
+  color: var(--light-blue);
+  font-family: Rubik, sans-serif;
+  font-size: 17px;
+  font-weight: 700;
+  line-height: 28px;
+  text-decoration: underline;
+}
+
 .header {
   background-image: url("https://assets-global.website-files.com/656484a2dfa75f5f02cd3e84/6564990509cbcb4fc9e8d893_BG%20Lines.png");
   background-position: 50%;
@@ -4220,6 +4229,13 @@ p {
   display: flex;
 }
 
+.link {
+  font-family: Rubik, sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 28px;
+}
+
 @media screen and (max-width: 991px) {
   .nav-link {
     margin-right: 20px;
@@ -4573,6 +4589,10 @@ p {
 
   h4, h6 {
     color: var(--light-blue);
+  }
+
+  a {
+    font-size: 15px;
   }
 
   li {
@@ -5057,6 +5077,10 @@ p {
     bottom: 0%;
     left: auto;
     right: 0%;
+  }
+
+  .link {
+    font-size: 13px;
   }
 }
 
