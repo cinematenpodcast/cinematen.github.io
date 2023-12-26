@@ -4241,6 +4241,10 @@ a {
   align-self: center;
 }
 
+.rating-div.single {
+  align-self: flex-start;
+}
+
 .starbright, .stardark {
   width: 30px;
 }
@@ -5122,6 +5126,7 @@ a {
     grid-area: span 1 / span 1 / span 1 / span 1;
   }
 }
+
 
 .post {
   display: none;
