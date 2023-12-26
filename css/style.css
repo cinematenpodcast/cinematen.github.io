@@ -4571,6 +4571,10 @@ a {
   .nieuws-list-item.horizontal {
     margin-top: 0;
   }
+
+  .starbright, .stardark {
+    width: 40px;
+  }
 }
 
 @media screen and (max-width: 479px) {
