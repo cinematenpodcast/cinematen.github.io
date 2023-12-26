@@ -4183,6 +4183,7 @@ a {
 }
 
 .nieuws-grid-thumbnail {
+  max-height: 570px;
   max-width: 100%;
   align-self: flex-start;
 }
@@ -4234,6 +4235,21 @@ a {
   font-size: 18px;
   font-weight: 700;
   line-height: 28px;
+}
+
+.rating-div {
+  align-self: center;
+}
+
+.starbright, .stardark {
+  width: 30px;
+}
+
+.rating-w-button {
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+  flex-direction: row;
+  display: flex;
 }
 
 @media screen and (max-width: 991px) {
@@ -4351,7 +4367,7 @@ a {
   }
 
   .button.lees-meer {
-    margin-top: 20px;
+    margin-top: 0;
   }
 
   .button.readmore-articles {
@@ -4574,6 +4590,11 @@ a {
 
   .starbright, .stardark {
     width: 40px;
+  }
+
+  .rating-w-button {
+    align-items: center;
+    margin-top: 20px;
   }
 }
 
@@ -5085,6 +5106,10 @@ a {
 
   .link {
     font-size: 13px;
+  }
+
+  .rating-w-button {
+    flex-direction: column-reverse;
   }
 }
 
