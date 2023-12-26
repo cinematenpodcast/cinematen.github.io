@@ -3585,6 +3585,10 @@ a {
   font-weight: 400;
 }
 
+.button.leesblog {
+  margin-bottom: 20px;
+}
+
 .button.lees-meer {
   text-transform: uppercase;
   align-self: flex-start;
