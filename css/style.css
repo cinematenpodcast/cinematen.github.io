@@ -4202,9 +4202,7 @@ a {
   grid-row-gap: 40px;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-auto-flow: row;
-  margin-top: 20px;
-  margin-left: 60px;
-  margin-right: 60px;
+  margin: 20px 60px;
 }
 
 .nieuws-list-item {
@@ -4334,6 +4332,10 @@ a {
 }
 
 @media screen and (max-width: 767px) {
+  p {
+    text-align: justify;
+  }
+
   .header {
     color: #13282e;
     padding-bottom: 20px;
@@ -5141,12 +5143,7 @@ a {
 
 /* Desktop */
 @media (min-width: 768px) {
-  /* Display first 8 posts */
   .post:nth-child(-n+8) {
       display: block;
   }
-}
-
-.grid-layout {
-margin-bottom: 15px
 }
