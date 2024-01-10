@@ -3566,6 +3566,7 @@ a {
 }
 
 .button.leesmeer {
+  justify-content: center;
   align-self: flex-start;
   align-items: flex-end;
   margin-top: auto;
