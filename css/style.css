@@ -2092,7 +2092,7 @@ textarea.w-input, textarea.w-select {
 }
 
 :root {
-  --dark-green\<deleted\|variable-fed501b8\>: #13282e;
+  --dark-green: #13282e;
   --light-blue: #67fbe9;
   --dark-blue: #131b2e;
   --light-green\<deleted\|variable-b36a55a7\>: #74f5ac;
@@ -3394,7 +3394,7 @@ textarea.w-input, textarea.w-select {
 }
 
 body {
-  color: var(--dark-green\<deleted\|variable-fed501b8\>);
+  color: var(--dark-green);
   font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
   font-size: 14px;
   line-height: 20px;
@@ -3430,7 +3430,7 @@ h3 {
 }
 
 h4 {
-  color: var(--dark-green\<deleted\|variable-fed501b8\>);
+  color: var(--dark-green);
   margin-top: 10px;
   margin-bottom: 10px;
   font-family: Rubik, sans-serif;
@@ -3473,6 +3473,14 @@ a {
   font-weight: 700;
   line-height: 28px;
   text-decoration: underline;
+}
+
+li {
+  color: #fff;
+  font-family: Rubik, sans-serif;
+  font-size: 17px;
+  font-weight: 300;
+  line-height: 28px;
 }
 
 .header {
@@ -3670,6 +3678,12 @@ a {
   margin-top: 0;
 }
 
+.section.fill {
+  height: 100px;
+  margin: auto;
+  padding-top: 0;
+}
+
 .paragraph {
   color: #fff;
   text-align: left;
@@ -3733,9 +3747,6 @@ a {
   grid-row-gap: 0px;
   flex-direction: column;
   align-self: stretch;
-  margin-top: 0;
-  margin-bottom: 20px;
-  display: flex;
 }
 
 .div-hero.socmed-div {
@@ -3955,17 +3966,17 @@ a {
 }
 
 .cart-text {
-  color: var(--dark-green\<deleted\|variable-fed501b8\>);
+  color: var(--dark-green);
   font-family: Rubik, sans-serif;
   font-weight: 800;
 }
 
 .icon-3 {
-  color: var(--dark-green\<deleted\|variable-fed501b8\>);
+  color: var(--dark-green);
 }
 
 .cart-quantity {
-  background-color: var(--dark-green\<deleted\|variable-fed501b8\>);
+  background-color: var(--dark-green);
   color: var(--light-green\<deleted\|variable-b36a55a7\>);
   font-family: Rubik, sans-serif;
 }
@@ -4010,7 +4021,7 @@ a {
 
 .checkout-button {
   background-color: var(--light-green\<deleted\|variable-b36a55a7\>);
-  color: var(--dark-green\<deleted\|variable-fed501b8\>);
+  color: var(--dark-green);
   font-family: Rubik, sans-serif;
 }
 
@@ -4021,7 +4032,7 @@ a {
 }
 
 .cart-quantity-2 {
-  color: var(--dark-green\<deleted\|variable-fed501b8\>);
+  color: var(--dark-green);
   font-family: Rubik, sans-serif;
 }
 
@@ -4258,6 +4269,27 @@ a {
   grid-row-gap: 10px;
   flex-direction: row;
   display: flex;
+}
+
+._404 {
+  text-align: center;
+  font-size: 400px;
+}
+
+.div {
+  height: auto;
+  margin: auto;
+}
+
+.list-2 {
+  color: #fff;
+  font-family: Rubik, sans-serif;
+}
+
+.list-item {
+  font-size: 17px;
+  font-weight: 300;
+  line-height: 28px;
 }
 
 @media screen and (max-width: 991px) {
@@ -5125,12 +5157,12 @@ a {
   }
 }
 
-#w-node-_941a18d5-dec1-d1e8-8dfb-39d6d6f2b2fb-02cd3e79, #w-node-_5100c495-b7e7-747b-6683-a7e51aa292d9-02cd3e79, #w-node-_636f1c77-5651-4a02-b7da-01ab03c37a73-02cd3e79, #w-node-_859af235-8edd-901c-43ee-900f69fdbb46-02cd3e79, #w-node-_5761095e-8358-cd68-5473-e627e0799147-02cd3e79, #w-node-_28845e5d-1cd6-ddcf-a888-e3486fd9ce53-02cd3e79, #w-node-e277b0e3-093c-2aa2-3568-d7055595137a-02cd3e79, #w-node-_02460ea1-5fe5-d227-1737-be6fd549ecc0-02cd3e79, #w-node-c7c4637e-0bee-08b5-944b-c1dab34b08b3-02cd3e79, #w-node-ea701243-5e20-c558-3981-d45eabfbd9ac-02cd3e79, #w-node-df9f1cf1-c09f-e2da-1a78-29f3382eb29e-02cd3e79, #w-node-_3b80eafd-b7c7-d0d0-9142-c9d9aa794558-02cd3e79, #w-node-ea701243-5e20-c558-3981-d45eabfbd9ac-3dd2812a, #w-node-df9f1cf1-c09f-e2da-1a78-29f3382eb29e-3dd2812a, #w-node-_3b80eafd-b7c7-d0d0-9142-c9d9aa794558-3dd2812a, #w-node-_1552942b-7aa7-1807-1365-45056eabeb41-27e26995, #w-node-_1552942b-7aa7-1807-1365-45056eabeb43-27e26995, #w-node-_1552942b-7aa7-1807-1365-45056eabeb44-27e26995 {
+#w-node-_941a18d5-dec1-d1e8-8dfb-39d6d6f2b2fb-02cd3e79, #w-node-_5100c495-b7e7-747b-6683-a7e51aa292d9-02cd3e79, #w-node-_636f1c77-5651-4a02-b7da-01ab03c37a73-02cd3e79, #w-node-_859af235-8edd-901c-43ee-900f69fdbb46-02cd3e79, #w-node-_5761095e-8358-cd68-5473-e627e0799147-02cd3e79, #w-node-_28845e5d-1cd6-ddcf-a888-e3486fd9ce53-02cd3e79, #w-node-e277b0e3-093c-2aa2-3568-d7055595137a-02cd3e79, #w-node-_02460ea1-5fe5-d227-1737-be6fd549ecc0-02cd3e79, #w-node-c7c4637e-0bee-08b5-944b-c1dab34b08b3-02cd3e79, #w-node-ea701243-5e20-c558-3981-d45eabfbd9ac-02cd3e79, #w-node-df9f1cf1-c09f-e2da-1a78-29f3382eb29e-02cd3e79, #w-node-_3b80eafd-b7c7-d0d0-9142-c9d9aa794558-02cd3e79, #w-node-f80daf14-cb84-b20e-c9c1-c6f5cdc7dfe7-02cd3e7b, #w-node-f80daf14-cb84-b20e-c9c1-c6f5cdc7dfe9-02cd3e7b, #w-node-f80daf14-cb84-b20e-c9c1-c6f5cdc7dfea-02cd3e7b, #w-node-ea701243-5e20-c558-3981-d45eabfbd9ac-3dd2812a, #w-node-df9f1cf1-c09f-e2da-1a78-29f3382eb29e-3dd2812a, #w-node-_3b80eafd-b7c7-d0d0-9142-c9d9aa794558-3dd2812a, #w-node-_1552942b-7aa7-1807-1365-45056eabeb41-27e26995, #w-node-_1552942b-7aa7-1807-1365-45056eabeb43-27e26995, #w-node-_1552942b-7aa7-1807-1365-45056eabeb44-27e26995 {
   grid-area: span 1 / span 1 / span 1 / span 1;
 }
 
 @media screen and (max-width: 479px) {
-  #w-node-df9f1cf1-c09f-e2da-1a78-29f3382eb29e-02cd3e79, #w-node-df9f1cf1-c09f-e2da-1a78-29f3382eb29e-3dd2812a, #w-node-_1552942b-7aa7-1807-1365-45056eabeb43-27e26995 {
+  #w-node-df9f1cf1-c09f-e2da-1a78-29f3382eb29e-02cd3e79, #w-node-f80daf14-cb84-b20e-c9c1-c6f5cdc7dfe9-02cd3e7b, #w-node-df9f1cf1-c09f-e2da-1a78-29f3382eb29e-3dd2812a, #w-node-_1552942b-7aa7-1807-1365-45056eabeb43-27e26995 {
     grid-area: span 1 / span 1 / span 1 / span 1;
   }
 }
