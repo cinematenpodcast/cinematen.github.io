@@ -5181,3 +5181,9 @@ li {
       display: block;
   }
 }
+
+.nieuws-grid-thumbnail-poster {
+  max-height: 570px;
+  max-width: 100%;
+  align-self: flex-start;
+}
