@@ -4200,8 +4200,9 @@ li {
 }
 
 .nieuws-grid-thumbnail {
-  max-height: 570px;
-  max-width: 100%;
+  height: 324px;
+  width: 577px;
+  object-fit: cover;
   align-self: flex-start;
 }
 
