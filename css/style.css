@@ -296,6 +296,10 @@ html[data-w-dynpage] [data-w-cloak] {
   margin: unset;
 }
 
+pre.w-code-block code {
+  all: inherit;
+}
+
 .w-webflow-badge, .w-webflow-badge * {
   z-index: auto;
   visibility: visible;
@@ -3574,6 +3578,7 @@ li {
 }
 
 .button.leesmeer {
+  width: 508px;
   justify-content: center;
   align-self: flex-start;
   align-items: flex-end;
@@ -4200,8 +4205,9 @@ li {
 }
 
 .nieuws-grid-thumbnail {
-  height: 324px;
-  width: 577px;
+  width: 508px;
+  height: 285.258px;
+  aspect-ratio: 16 / 9;
   object-fit: cover;
   align-self: flex-start;
 }
@@ -4351,6 +4357,10 @@ li {
   .person-div.personleft, .person-div.personright {
     margin-top: 0;
     margin-bottom: 0;
+  }
+
+  .nieuws-grid-thumbnail {
+    object-fit: cover;
   }
 
   .grid-layout {
@@ -4829,6 +4839,7 @@ li {
   }
 
   .container {
+    height: 100%;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -5086,6 +5097,10 @@ li {
     text-align: center;
   }
 
+  .nieuws-grid-thumbnail {
+    max-height: 438px;
+  }
+
   .grid-layout {
     grid-row-gap: 50px;
     grid-template-rows: auto auto;
@@ -5180,10 +5195,4 @@ li {
   .post:nth-child(-n+8) {
       display: block;
   }
-}
-
-.nieuws-grid-thumbnail-poster {
-  max-height: 570px;
-  max-width: 100%;
-  align-self: flex-start;
 }
