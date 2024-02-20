@@ -3789,7 +3789,7 @@ li {
   grid-column-gap: 10px;
   grid-row-gap: 10px;
   grid-template-rows: auto;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
   align-items: stretch;
   justify-items: center;
   padding-left: 0;
@@ -4310,12 +4310,11 @@ li {
 }
 
 .reviews-grid-poster {
-  height: 525px;
-  max-height: 590px;
-  max-width: none;
+  max-height: 500px;
   aspect-ratio: 375 / 554;
   object-fit: fill;
   align-self: flex-start;
+  display: block;
 }
 
 .grid-cell-reviews {
@@ -4325,7 +4324,6 @@ li {
 .grid-layout-reviews {
   grid-column-gap: 40px;
   grid-row-gap: 40px;
-  flex: 0 auto;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-auto-flow: row;
   margin: 20px 60px;
@@ -4333,7 +4331,6 @@ li {
 
 .reviews-grid-title {
   height: 62px;
-  max-width: 355px;
   word-break: break-all;
   object-fit: contain;
   align-self: center;
@@ -5090,7 +5087,7 @@ li {
     grid-row-gap: 10px;
     flex-flow: wrap;
     grid-template-rows: auto;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     grid-auto-flow: column;
     align-content: stretch;
     justify-content: space-around;
@@ -5294,7 +5291,6 @@ li {
   .grid-layout {
     grid-row-gap: 50px;
     grid-template-rows: auto auto;
-    grid-template-columns: 1,1,1;
     margin-left: 20px;
     margin-right: 20px;
   }
