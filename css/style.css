@@ -4343,7 +4343,7 @@ li {
 }
 
 .reviews-grid-title {
-  height: 62px;
+  height: auto;
   word-break: break-all;
   object-fit: contain;
   align-self: center;
@@ -5387,7 +5387,8 @@ li {
   }
 
   .reviews-grid-title {
-    max-width: 85vw;
+    height: auto;
+    max-width: 79vw;
     text-align: center;
     word-break: break-all;
   }
