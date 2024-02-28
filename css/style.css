@@ -712,11 +712,7 @@ textarea.w-input, textarea.w-select {
   margin-right: auto;
 }
 
-.w-container:before, .w-container:after {
-  content: " ";
-  grid-area: 1 / 1 / 2 / 2;
-  display: table;
-}
+
 
 .w-container:after {
   clear: both;
@@ -5471,8 +5467,6 @@ li {
 .post:nth-child(-n+3) {
   display: block;
 }
-
-/* Desktop */
 @media (min-width: 768px) {
   .post:nth-child(-n+8) {
       display: block;
