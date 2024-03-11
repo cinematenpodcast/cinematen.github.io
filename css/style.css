@@ -3475,6 +3475,11 @@ a {
   text-decoration: underline;
 }
 
+ul {
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
 li {
   color: #fff;
   font-family: Rubik, sans-serif;
@@ -4869,6 +4874,10 @@ li {
     font-size: 15px;
   }
 
+  ul {
+    padding-left: 0;
+  }
+
   li {
     color: #fff;
     font-family: Rubik, sans-serif;
@@ -5237,6 +5246,11 @@ li {
   .korteinhoudtext {
     text-align: justify;
     margin-bottom: 40px;
+  }
+
+  .pagination {
+    grid-column-gap: 12px;
+    grid-row-gap: 12px;
   }
 
   .thumbnail {
