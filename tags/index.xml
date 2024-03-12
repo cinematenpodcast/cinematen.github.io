@@ -30,17 +30,17 @@
       <description></description>
     </item>
     <item>
-      <title>pop culture</title>
-      <link>https://cinematen.be/nieuws/pop-culture/</link>
-      <pubDate>Sun, 21 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>https://cinematen.be/nieuws/pop-culture/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>tv</title>
       <link>https://cinematen.be/nieuws/tv/</link>
       <pubDate>Sun, 21 Jan 2024 00:00:00 +0000</pubDate>
       <guid>https://cinematen.be/nieuws/tv/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>comics</title>
+      <link>https://cinematen.be/nieuws/comics/</link>
+      <pubDate>Sun, 24 Dec 2023 00:00:00 +0000</pubDate>
+      <guid>https://cinematen.be/nieuws/comics/</guid>
       <description></description>
     </item>
   </channel>
