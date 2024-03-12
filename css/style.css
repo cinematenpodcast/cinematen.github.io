@@ -4435,6 +4435,105 @@ li {
   margin-top: 30px;
 }
 
+.filters {
+  justify-content: center;
+  display: flex;
+}
+
+.filternkop {
+  clear: none;
+  background-color: var(--light-blue);
+  color: var(--dark-blue);
+  cursor: pointer;
+  border-radius: 5px;
+  order: 0;
+  align-self: flex-end;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-family: Rubik Mono One, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  text-decoration: none;
+  transition: transform .5s;
+  position: static;
+  top: auto;
+  bottom: 0%;
+  left: 0%;
+  right: auto;
+}
+
+.filternkop:hover {
+  transform: scale(1.1);
+}
+
+.filternkop.navbar {
+  height: auto;
+  align-self: center;
+  margin-top: 7px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.filternkop.leesmeer {
+  width: 508px;
+  justify-content: center;
+  align-self: flex-start;
+  align-items: flex-end;
+  margin-top: auto;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  font-size: 14px;
+  font-weight: 400;
+  display: flex;
+}
+
+.filternkop.leesmeer.lists {
+  width: 150px;
+}
+
+.filternkop.leesmeer.pagination-bottom {
+  width: 150px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.filternkop.leesmeer-copy-copy {
+  align-self: flex-start;
+  margin-top: 10px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.filternkop.leesblog {
+  margin-bottom: 20px;
+}
+
+.filternkop.lees-meer {
+  text-transform: uppercase;
+  align-self: flex-start;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-family: Rubik Mono One, sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.filternkop.readmore-articles {
+  align-self: center;
+  margin-top: 30px;
+}
+
+.filter-list {
+  list-style-type: none;
+  display: flex;
+}
+
 @media screen and (max-width: 991px) {
   .nav-link {
     margin-right: 20px;
@@ -4536,6 +4635,23 @@ li {
   }
 
   .button-reviews.readmore-articles {
+    align-self: center;
+  }
+
+  .filternkop {
+    white-space: nowrap;
+    font-size: 15px;
+  }
+
+  .filternkop.navbar {
+    margin-top: 6px;
+  }
+
+  .filternkop.leesblog {
+    align-self: flex-end;
+  }
+
+  .filternkop.readmore-articles {
     align-self: center;
   }
 }
@@ -4850,6 +4966,46 @@ li {
     margin-top: 0;
     font-size: 15px;
   }
+
+  .filternkop {
+    padding: 10px;
+    font-size: 15px;
+  }
+
+  .filternkop.navbar {
+    align-self: flex-start;
+    font-size: 11px;
+  }
+
+  .filternkop.leesmeer {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 11px;
+  }
+
+  .filternkop.leesblog {
+    align-self: center;
+    font-size: 15px;
+  }
+
+  .filternkop.lees-meer {
+    margin-top: 0;
+  }
+
+  .filternkop.readmore-articles {
+    align-self: center;
+    margin-top: 0;
+    font-size: 15px;
+  }
+
+  .filter-list {
+    flex-flow: wrap;
+    justify-content: center;
+  }
+
+  .filterlistitem {
+    margin-top: 10px;
+  }
 }
 
 @media screen and (max-width: 479px) {
@@ -5073,7 +5229,7 @@ li {
   .div-hero {
     flex: 1;
     align-self: center;
-    margin-top: 20px;
+    margin-top: 10px;
     margin-bottom: 20px;
   }
 
@@ -5446,6 +5602,72 @@ li {
     margin-top: 20px;
     margin-bottom: 20px;
     display: block;
+  }
+
+  .filters {
+    flex-flow: wrap;
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+
+  .filternkop {
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 12px;
+    line-height: 10px;
+    display: block;
+  }
+
+  .filternkop.navbar {
+    max-height: none;
+    white-space: nowrap;
+    order: -1;
+    align-self: center;
+    margin-top: 0;
+    margin-left: 9px;
+    padding: 8px 5px;
+    font-size: 9px;
+  }
+
+  .filternkop.leesmeer {
+    width: 87vw;
+    align-self: center;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .filternkop.leesmeer.list {
+    width: 100%;
+    flex: 1;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
+
+  .filternkop.leesblog {
+    display: block;
+  }
+
+  .filternkop.lees-meer {
+    margin-top: 10px;
+  }
+
+  .filternkop.readmore-articles {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: block;
+  }
+
+  .filter-list {
+    flex-flow: wrap;
+    justify-content: center;
+  }
+
+  .filterlistitem {
+    margin-top: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
   }
 }
 

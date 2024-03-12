@@ -6,13 +6,27 @@
     <description>Recent content in Tags on Cinematenblogtest</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>nl-be</language>
-    <lastBuildDate>Tue, 23 Jan 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 11 Mar 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://cinematen.be/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>musical, film, streaming</title>
-      <link>https://cinematen.be/tags/musical-film-streaming/</link>
-      <pubDate>Tue, 23 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>https://cinematen.be/tags/musical-film-streaming/</guid>
+      <title>film</title>
+      <link>https://cinematen.be/nieuws/film/</link>
+      <pubDate>Mon, 11 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>https://cinematen.be/nieuws/film/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>casting</title>
+      <link>https://cinematen.be/nieuws/casting/</link>
+      <pubDate>Fri, 01 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>https://cinematen.be/nieuws/casting/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>upcoming</title>
+      <link>https://cinematen.be/nieuws/upcoming/</link>
+      <pubDate>Fri, 01 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>https://cinematen.be/nieuws/upcoming/</guid>
       <description></description>
     </item>
   </channel>
