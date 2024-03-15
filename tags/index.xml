@@ -6,8 +6,15 @@
     <description>Recent content in Tags on Cinematenblogtest</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>nl-be</language>
-    <lastBuildDate>Mon, 11 Mar 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 15 Mar 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://cinematen.be/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Tv</title>
+      <link>https://cinematen.be/nieuws/tv/</link>
+      <pubDate>Fri, 15 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>https://cinematen.be/nieuws/tv/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Film</title>
       <link>https://cinematen.be/nieuws/film/</link>
@@ -34,13 +41,6 @@
       <link>https://cinematen.be/nieuws/comics/</link>
       <pubDate>Thu, 29 Feb 2024 00:00:00 +0000</pubDate>
       <guid>https://cinematen.be/nieuws/comics/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Tv</title>
-      <link>https://cinematen.be/nieuws/tv/</link>
-      <pubDate>Thu, 25 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>https://cinematen.be/nieuws/tv/</guid>
       <description></description>
     </item>
     <item>
