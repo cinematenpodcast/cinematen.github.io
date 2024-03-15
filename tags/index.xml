@@ -16,6 +16,13 @@
       <description></description>
     </item>
     <item>
+      <title>Trailer</title>
+      <link>https://cinematen.be/nieuws/trailer/</link>
+      <pubDate>Sat, 02 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>https://cinematen.be/nieuws/trailer/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>Casting</title>
       <link>https://cinematen.be/nieuws/casting/</link>
       <pubDate>Fri, 01 Mar 2024 00:00:00 +0000</pubDate>
@@ -23,24 +30,24 @@
       <description></description>
     </item>
     <item>
-      <title>Upcoming</title>
-      <link>https://cinematen.be/nieuws/upcoming/</link>
-      <pubDate>Fri, 01 Mar 2024 00:00:00 +0000</pubDate>
-      <guid>https://cinematen.be/nieuws/upcoming/</guid>
+      <title>Comics</title>
+      <link>https://cinematen.be/nieuws/comics/</link>
+      <pubDate>Thu, 29 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>https://cinematen.be/nieuws/comics/</guid>
       <description></description>
     </item>
     <item>
       <title>Tv</title>
       <link>https://cinematen.be/nieuws/tv/</link>
-      <pubDate>Sun, 21 Jan 2024 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 25 Jan 2024 00:00:00 +0000</pubDate>
       <guid>https://cinematen.be/nieuws/tv/</guid>
       <description></description>
     </item>
     <item>
-      <title>Comics</title>
-      <link>https://cinematen.be/nieuws/comics/</link>
-      <pubDate>Sun, 24 Dec 2023 00:00:00 +0000</pubDate>
-      <guid>https://cinematen.be/nieuws/comics/</guid>
+      <title>Upcoming</title>
+      <link>https://cinematen.be/nieuws/upcoming/</link>
+      <pubDate>Tue, 19 Dec 2023 00:00:00 +0000</pubDate>
+      <guid>https://cinematen.be/nieuws/upcoming/</guid>
       <description></description>
     </item>
   </channel>
