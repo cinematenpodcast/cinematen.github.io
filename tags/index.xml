@@ -43,12 +43,5 @@
       <guid>https://cinematen.be/nieuws/comics/</guid>
       <description></description>
     </item>
-    <item>
-      <title>Upcoming</title>
-      <link>https://cinematen.be/nieuws/upcoming/</link>
-      <pubDate>Tue, 19 Dec 2023 00:00:00 +0000</pubDate>
-      <guid>https://cinematen.be/nieuws/upcoming/</guid>
-      <description></description>
-    </item>
   </channel>
 </rss>
