@@ -4875,6 +4875,8 @@ li {
   .blogpost-title {
     font-size: 31px;
     font-weight: 400;
+    margin-top: 0;
+    padding-top: 15px;
   }
 
   .blogpost-title.left {
