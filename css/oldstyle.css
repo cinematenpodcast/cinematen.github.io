@@ -198,27 +198,27 @@ td, th {
 }
 
 .w-icon-slider-right:before {
-  content: "î˜€";
+  content: "";
 }
 
 .w-icon-slider-left:before {
-  content: "î˜";
+  content: "";
 }
 
 .w-icon-nav-menu:before {
-  content: "î˜‚";
+  content: "";
 }
 
 .w-icon-arrow-down:before, .w-icon-dropdown-toggle:before {
-  content: "î˜ƒ";
+  content: "";
 }
 
 .w-icon-file-upload-remove:before {
-  content: "î¤€";
+  content: "";
 }
 
 .w-icon-file-upload-icon:before {
-  content: "î¤ƒ";
+  content: "";
 }
 
 * {
@@ -712,11 +712,7 @@ textarea.w-input, textarea.w-select {
   margin-right: auto;
 }
 
-.w-container:before, .w-container:after {
-  content: " ";
-  grid-area: 1 / 1 / 2 / 2;
-  display: table;
-}
+
 
 .w-container:after {
   clear: both;
@@ -4440,10 +4436,7 @@ li {
 }
 
 .filters {
-  max-width: 700px;
-  flex-flow: wrap;
   justify-content: center;
-  align-items: center;
   display: flex;
 }
 
@@ -4455,7 +4448,6 @@ li {
   border-radius: 5px;
   order: 0;
   align-self: flex-end;
-  margin-bottom: 20px;
   margin-left: 10px;
   margin-right: 10px;
   padding-left: 10px;
@@ -4538,9 +4530,6 @@ li {
 }
 
 .filter-list {
-  flex-flow: wrap;
-  justify-content: center;
-  align-items: center;
   list-style-type: none;
   display: flex;
 }
@@ -4651,7 +4640,6 @@ li {
 
   .filternkop {
     white-space: nowrap;
-    margin-bottom: 20px;
     font-size: 15px;
   }
 
@@ -4665,13 +4653,6 @@ li {
 
   .filternkop.readmore-articles {
     align-self: center;
-  }
-
-  .filter-list {
-    flex-flow: wrap;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 0;
   }
 }
 
@@ -4894,6 +4875,8 @@ li {
   .blogpost-title {
     font-size: 31px;
     font-weight: 400;
+    margin-top: 0;
+    padding-top: 15px;
   }
 
   .blogpost-title.left {
@@ -5713,6 +5696,8 @@ li {
     grid-area: span 1 / span 1 / span 1 / span 1;
   }
 }
+
+
 .post {
   display: none;
 }
