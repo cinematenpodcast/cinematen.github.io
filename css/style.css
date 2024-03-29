@@ -4673,7 +4673,7 @@ li {
 
 @media screen and (max-width: 767px) {
   p {
-    text-align: justify;
+    text-align: left;
   }
 
   .header {
@@ -5203,7 +5203,7 @@ li {
   }
 
   .paragraph {
-    text-align: left;
+    text-align: center;
     padding-bottom: 10px;
     font-size: 13px;
     line-height: 22px;
