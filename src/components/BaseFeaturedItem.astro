@@ -1,0 +1,16 @@
+---
+const { title, url, thumbnail } = Astro.props;
+---
+<a href={url} class="featured-item w-inline-block">
+    <div class="feature-image-wrapper">
+        <img
+            src={thumbnail}
+            sizes="(max-width: 479px) 100vw, (max-width: 767px) 213.6953125px, 128.21875px"
+            alt=""
+            class="small-featured-image"
+        />
+    </div>
+    <div class="title-small">
+        {title}
+    </div>
+</a>

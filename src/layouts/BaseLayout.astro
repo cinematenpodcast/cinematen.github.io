@@ -1,0 +1,155 @@
+---
+import BaseHead from "../components/BaseHead.astro";
+import BaseHeader from "../components/BaseHeader.astro";
+import BaseScript from "../components/BaseScript.astro";
+import BaseFooter from "../components/BaseFooter.astro";
+import BaseNavmenu from "../components/BaseNavmenu.astro";
+import BasePodcastBanner from "../components/BasePodcastBanner.astro";
+import CategoriesNieuws from "../components/CategoriesNieuws.astro";
+import CategoriesReviews from "../components/CategoriesReviews.astro";
+import BaseNieuwsItem from "../components/BaseNieuwsItem.astro";
+import BasePodcastBlock from "../components/BasePodcastBlock.astro";
+import BasePodcastBanner from "../components/BasePodcastBanner.astro";
+import BaseFeaturedItem from "../components/BaseFeaturedItem.astro";
+import BaseReviewItem from "../components/BaseReviewItem.astro";
+import BaseAbout from "../components/BaseAbout.astro";
+import BaseContact from "../components/BaseContact.astro";
+
+const allNieuwsPosts = await Astro.glob('../pages/nieuws/*.md');
+
+const allRnbPosts = await Astro.glob('../pages/reviews&blogs/*.mdx');
+
+---
+
+<html lang="en">
+    <head>
+        <BaseHead/>
+    </head>
+    <body class="body">
+        <div class="page-wrapper">
+            <BaseNavmenu />
+            <BaseHeader />
+            <div class="content">
+                <h1 class="nieuws-title">Film & TV nieuws</h1>
+                <div class="container">
+                    <div class="w-layout-grid blog-grid">
+                        <div class="content-left">
+                            {allNieuwsPosts
+                                .sort((a, b) => new Date(b.frontmatter.date) - new Date(a.frontmatter.date)) // Sort by date, newest to oldest
+      .slice(0, 5) // Extract the first 5 elements
+                        .map((post) => (
+                          <BaseNieuwsItem
+                              key={post.url}
+                              url={post.url}
+                              title={post.frontmatter.title}
+                              thumbnail={post.frontmatter.thumbnail}
+                              date={post.frontmatter.date}
+                              content={post.rawContent}
+                            />
+                          ))}
+    <a href="/nieuws/pages/1" class="next-button">
+        <div class="title-medium">Meer nieuws</div>
+    </a>
+                        </div>
+                        <div class="content-right">
+                            <div class="stick-wrapper">
+                                <BasePodcastBlock />
+                                <div class="featured-articles">
+                                    <div class="title-large xtra">
+                                        Uitgelicht
+                                    </div>
+                                    <div class="featured-block">
+                                        {allRnbPosts
+                                            .filter(post => post.frontmatter.featured) // Filter posts where 'featured' is true
+                                            .sort((a, b) => new Date(b.frontmatter.date) - new Date(a.frontmatter.date)) // Sort by date, newest to oldest
+                                            .slice(0, 5) // Extract the first 5 elements
+                                            .map((post) => (
+                                                <BaseFeaturedItem
+                                                    key={post.url}
+                                                    url={post.url}
+                                                    title={post.frontmatter.title}
+                                                    thumbnail={post.frontmatter.thumbnail}
+                                                    date={post.frontmatter.date}
+                                                    content={post.rawContent}
+                                                    featured={post.frontmatter.featured}
+                                                />
+                                            ))}                                        
+                                    </div>
+                                </div>
+                                <CategoriesNieuws />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <BasePodcastBanner />
+            <div class="content">
+                <div class="container">
+                    <h1 class="nieuws-title">Reviews & Blogs</h1>
+                    <div class="w-layout-grid blog-grid">
+                        <div class="content-left">
+                            {allRnbPosts
+                                .sort((a, b) => new Date(b.frontmatter.date) - new Date(a.frontmatter.date)) // Sort by date, newest to oldest
+      .slice(0, 5) // Extract the first 5 elements
+                        .map((post) => (
+                          <BaseReviewItem
+                              key={post.url}
+                              url={post.url}
+                              schrijver={post.frontmatter.schrijver}
+                              title={post.frontmatter.title}
+                              thumbnail={post.frontmatter.thumbnail}
+                              date={post.frontmatter.date}
+                              content={post.rawContent}
+                              summary={post.frontmatter.summary}
+                              rating={post.frontmatter.rating}
+                            />
+                          ))}
+                              <a href="/reviews&blogs/pages/1" class="next-button">
+                                <div class="title-medium">Meer Reviews & Blogs</div>
+                            </a>           
+                        </div>
+                        <div class="content-right">
+                            <div class="stick-wrapper">
+                                <div class="featured-articles">
+                                    <div class="title-large xtra">
+                                        Cinematen Top 5
+                                    </div>
+                                    <div class="featured-block">
+                                        {allRnbPosts
+                                            .filter(post => post.frontmatter.rating !== undefined) // Filter posts with a defined rating
+                                            .filter(post => post.frontmatter.rating !== null) // Filter out posts with null rating
+                                            .sort((a, b) => {
+                                                // Sort by rating (descending) and then by date (descending)
+                                                if (b.frontmatter.rating !== a.frontmatter.rating) {
+                                                    return b.frontmatter.rating - a.frontmatter.rating;
+                                                }
+                                                return new Date(b.frontmatter.date) - new Date(a.frontmatter.date);
+                                            })
+                                            .slice(0, 5) // Extract the first 5 elements
+                                            .map((post) => (
+                                                <BaseFeaturedItem
+                                                    key={post.url}
+                                                    url={post.url}
+                                                    title={post.frontmatter.title}
+                                                    thumbnail={post.frontmatter.thumbnail}
+                                                    date={post.frontmatter.date}
+                                                    content={post.rawContent}
+                                                    featured={post.frontmatter.featured}
+                                                />
+                                            ))}
+                                        
+                                    </div>
+                                </div>
+                                <CategoriesReviews />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <BaseAbout id="over-ons"/>
+            <BaseContact />
+            <BaseFooter />
+            <BaseScript />
+        </div>
+    </body>
+</html>

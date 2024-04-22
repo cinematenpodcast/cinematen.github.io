@@ -1,0 +1,117 @@
+// Import necessary components
+import BaseHead from "../../../components/BaseHead.astro";
+import BaseHeader from "../../../components/BaseHeader.astro";
+import BaseScript from "../../../components/BaseScript.astro";
+import BaseFooter from "../../../components/BaseFooter.astro";
+import BaseNavmenu from "../../../components/BaseNavmenu.astro";
+import BasePodcastBanner from "../../../components/BasePodcastBanner.astro";
+import BaseNieuwsItem from "../../../components/BaseNieuwsItem.astro";
+
+export async function getStaticPaths () {
+  // grab all .md files from a folder
+  let allPosts = await Astro.glob('../*.md');
+  // I need this filter to ignore files that do not have 
+  // a title, or no published date (in frontmatter)
+  // this way I leave the date out while the post is not finished.
+  let dix = {};
+  allPosts.forEach((post) => {
+    // go thru each tag in each published post,
+    // fill in the object...
+    post.frontmatter.tags.forEach((tag) => {
+      // Convert tag to lowercase and remove extra characters
+      const formattedTag = tag.toLowerCase().replace(/:/g, '');
+      if (!dix[formattedTag]) dix[formattedTag] = 0;
+      dix[formattedTag] += 1;
+    });
+  });
+  console.log('dix', dix); // <-- prints out our tag-cloud data.
+
+  let ary = [];
+  // format the data to return from getStaticPaths()
+  for (let prop in dix) {
+    ary.push({
+      params: { tag: prop },
+      props: { tagname: prop, count: dix[prop] }
+    });
+  }
+  return ary;
+}
+
+export async function getStaticProps ({ params }) {
+  const tagname = params.tag.toLowerCase(); // Convert tagname to lowercase
+
+  let allPosts = await Astro.glob('../*.md');
+  let filteredPosts = 
+    allPosts.filter((p) => { 
+      return p.frontmatter.title;
+    });
+  // now filter to only posts containing the selected tag,
+  // these will be rendered below in the markup.
+  let tagged = filteredPosts.filter((p) => { 
+    return p.frontmatter.tags.map(tag => tag.toLowerCase().replace(/:/g, '')).includes(tagname); 
+  });
+
+  return {
+    props: {
+      tagname,
+      tagged: tagged.sort((a, b) => new Date(b.frontmatter.date) - new Date(a.frontmatter.date))
+    }
+  };
+}
+
+// Grab the titles of the five newest articles for debugging
+const newestArticles = tagged
+  .slice(0, 5) // Get the first 5 articles
+  .map(post => post.frontmatter.title); // Map to titles
+
+console.log('Titles of the five newest articles:', newestArticles);
+
+<html lang="nl">
+  <head>
+    <BaseHead/>
+  </head>
+  <body class="body">
+    <div class="page-wrapper">
+      <BaseNavmenu />
+      <BaseHeader />
+      <div class="content">
+        <div class="container">
+          <h1 class="nieuws-title">Film & TV nieuws</h1>
+          <div class="w-layout-grid nieuws-list">
+            <div class="categories-block">
+              <div class="title-large">Categorieën</div>
+              <div class="categories-wrapper list">
+                {params.tag && <div class="categories-pill w-inline-block"><div class="title-small pink">{params.tag}</div></div>}
+              </div>
+            </div>
+            {tagged.map(post => (
+              <BaseNieuwsItem
+                key={post.url}
+                url={post.url}
+                title={post.frontmatter.title}
+                thumbnail={post.frontmatter.thumbnail}
+                date={post.frontmatter.date}
+                content={post.rawContent}
+              />
+            ))}
+            <div class="page__actions">
+              {page.url.prev && <a class="action__go-to-x" href={page.url.prev} title="Go to Previous">&larr; Prev</a>}
+              {page.url.next && <a class="action__go-to-x" href={page.url.next} title="Go to Next">Next &rarr;</a>}
+            </div>
+            <style>
+              .page__actions {
+                @apply flex justify-center md:justify-end py-6 gap-2
+              }
+              .action__go-to-x {
+                @apply text-base uppercase text-gray-500 dark:text-gray-400 hover:underline
+              }
+            </style>
+          </div>
+        </div>
+        <BasePodcastBanner />
+      </div>
+      <BaseFooter />
+    </div>
+    <BaseScript />
+  </body>
+</html>

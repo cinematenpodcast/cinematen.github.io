@@ -1,0 +1,171 @@
+---
+import BaseHead from "../components/BaseHead.astro";
+import BaseNavmenu from "../components/BaseNavmenu.astro";
+import BaseHeader from "../components/BaseHeader.astro";
+import BaseFooter from "../components/BaseFooter.astro";
+import BaseScript from "../components/BaseScript.astro";
+import BasePodcastBanner from "../components/BasePodcastBanner.astro";
+
+
+const { frontmatter } = Astro.props;
+
+// Function to format the date and adjust for timezone
+function formatDate(dateString) {
+    const date = new Date(dateString);
+    if (isNaN(date.getTime())) return ""; // Return empty string if date is invalid
+    const options = {
+        timeZone: "UTC",
+        hour12: false,
+        hour: "numeric",
+        minute: "numeric",
+    }; // Set the timezone to UTC and format the hour and minute without seconds
+    const formattedDate = date.toLocaleDateString("nl-NL", {
+        day: "2-digit",
+        month: "2-digit",
+        year: "numeric",
+    });
+    const timePart = date.toLocaleTimeString("nl-NL", options);
+    return timePart === "00:00"
+        ? formattedDate
+        : `${formattedDate} ${timePart}`; // Return only date if time is midnight, otherwise combine date and time
+}
+
+// Format the date
+const formattedDateTime = formatDate(frontmatter.date);
+
+// Function to generate star rating images based on the rating
+function generateStarRating(rating) {
+    const fullStar = "/images/star-full.png";
+    const halfStar = "/images/star-half.png";
+    const emptyStar = "/images/star-empty.png";
+
+    const stars = [];
+    let remainingRating = rating;
+
+    for (let i = 0; i < 5; i++) {
+        if (remainingRating >= 1) {
+            stars.push(fullStar);
+            remainingRating--;
+        } else if (remainingRating > 0) {
+            stars.push(halfStar);
+            remainingRating = 0;
+        } else {
+            stars.push(emptyStar);
+        }
+    }
+
+    return stars;
+}
+
+// Ensure rating is a number
+const parsedRating = parseFloat(frontmatter.rating);
+// Ensure rating is within the range of 0 to 5
+const validatedRating = isNaN(parsedRating) ? 0 : Math.min(Math.max(parsedRating, 0), 5);
+// Generate star rating images
+const starRatingImages = generateStarRating(validatedRating);
+
+console.log("Rating:", frontmatter.rating); // Add this line to check the value of rating
+
+---
+
+
+<html lang="nl">
+    <head>
+        <BaseHead />
+    </head>
+    <body class="body">
+        <div class="page-wrapper">
+            <BaseNavmenu />
+            <BaseHeader />
+            <div
+                data-w-id="75dba001-0326-9ad8-ca3e-3734b81d7ff9"
+                class="content"
+            >
+                <div class="container">
+                    <a
+                        href="#"
+                        target="_blank"
+                        class="terug-knop w-inline-block"
+                    >
+                        <div class="terug-div">
+                            <img
+                                src="https://assets-global.website-files.com/6613d9d7c23cff2286422b25/66145e1f24aa75e6e8efe154_pijl.svg"
+                                loading="lazy"
+                                width="10"
+                                alt=""
+                                class="image-4"
+                            />
+                            <div onclick="goBack()" class="terugknop-text">
+                                Terug
+                            </div>
+                        </div>
+                    </a>
+                    <div class="content-left">
+                        <div class="blog-post-container w-clearfix">
+                            <img
+                                src={frontmatter.poster}
+                                loading="lazy"
+                                sizes="(max-width: 479px) 100vw, (max-width: 767px) 23vw, (max-width: 991px) 300px, 400px"
+                                alt=""
+                                class="review-poster"
+                            />
+                            <div
+                                id="w-node-_069f2f58-921b-4412-13ba-a31b655496e4-9b14680e"
+                                class="review-content-block"
+                            >
+                                <div
+                                    id="w-node-_069f2f58-921b-4412-13ba-a31b655496e7-9b14680e"
+                                    class="review-title"
+                                >
+                                    <div class="review-header-bottom">
+                                        <h2 class="heading-h2 review-topic">
+                                            {frontmatter.soort} door {
+                                                frontmatter.schrijver
+                                            }
+                                        </h2>
+                                        <h2 class="heading-h2 review-title">
+                                            {frontmatter.title}
+                                        </h2>
+                                        {frontmatter.rating && frontmatter.rating > 0 && (
+                                        <div class="rating-blue">
+                                            {starRatingImages.map(starImage => (
+                                                <img src={starImage} loading="lazy" alt="" class="star-image" />
+                                            ))}
+                                        </div> )}
+                                    </div>
+                                    {
+                                        formattedDateTime && (
+                                            <p class="paragraph-detials-small">
+                                                {formattedDateTime}
+                                            </p>
+                                        )
+                                    }
+                                    </div>
+                                </div>
+                                <div
+                                    id="w-node-_069f2f58-921b-4412-13ba-a31b655496ee-9b14680e"
+                                    class="review-text w-richtext"
+                                >
+                                    <slot />
+                                    {frontmatter.trailer && 
+                                        <div id="trailer">
+                                            <h2 style="text-align: center; margin-top: 80px;">Bekijk hier de trailer:</h2>
+                                            <div class="video-container">
+                                                <div class="video-wrapper">
+                                                    <iframe src={`https://www.youtube-nocookie.com/embed/${frontmatter.trailer}`} title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        }                 
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <BasePodcastBanner />
+                <BaseFooter />
+            </div>
+            <BaseScript />
+        </div>
+    </body>
+</html>

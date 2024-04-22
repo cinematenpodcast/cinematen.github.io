@@ -1,0 +1,102 @@
+---
+// Import necessary components
+import BaseHead from "../../../components/BaseHead.astro";
+import BaseHeader from "../../../components/BaseHeader.astro";
+import BaseScript from "../../../components/BaseScript.astro";
+import BaseFooter from "../../../components/BaseFooter.astro";
+import BaseNavmenu from "../../../components/BaseNavmenu.astro";
+import BasePodcastBanner from "../../../components/BasePodcastBanner.astro";
+import BaseNieuwsItem from "../../../components/BaseNieuwsItem.astro"; // Corrected component name from Niews to Nieuws
+
+export async function getStaticPaths({ paginate }) {
+    // Load all news posts
+    const allNieuwsPosts = await Astro.glob('../*.md');
+
+    // Sort posts by date in descending order
+    const sortedPosts = allNieuwsPosts.sort((a, b) => {
+        return new Date(b.frontmatter.date) - new Date(a.frontmatter.date);
+    });
+
+    // Paginate the sorted array
+    return paginate(sortedPosts, { pageSize: 8 });
+}
+
+const { page } = Astro.props;
+const totalPages = page.lastPage; // Total number of pages
+const currentPage = page.currentPage; // Current page number
+const pageNumbersToShow = 5; // How many total pages to show in the navigation
+
+function generatePageNumbers(currentPage, totalPages, pageNumbersToShow) {
+    const halfWindow = Math.floor(pageNumbersToShow / 2);
+    let start = Math.max(1, currentPage - halfWindow);
+    let end = Math.min(totalPages, currentPage + halfWindow);
+
+    // Adjust the start and end if they are out of bounds
+    if (currentPage - halfWindow < 1) {
+        end = Math.min(end + (halfWindow - currentPage + 1), totalPages);
+    }
+    if (currentPage + halfWindow > totalPages) {
+        start = Math.max(1, start - (currentPage + halfWindow - totalPages));
+    }
+
+    return {start, end};
+}
+
+const {start, end} = generatePageNumbers(currentPage, totalPages, pageNumbersToShow);
+---
+
+<html lang="nl">
+    <head>
+        <BaseHead/>
+    </head>
+    <body class="body">
+        <div class="page-wrapper">
+            <BaseNavmenu />
+            <BaseHeader />
+            <div class="content">
+                <div class="container">
+                    <h1 class="nieuws-title">Film & TV nieuws</h1>
+                    <div class="w-layout-grid nieuws-list">
+                        <div class="categories-block">
+                            <div class="title-large">Categorieën</div>
+                            <div class="categories-wrapper list">
+                                <a href="../tags/film" class="categories-pill w-inline-block"><div class="title-small pink">Film</div></a>
+                                <a href="../tags/tv" class="categories-pill w-inline-block"><div class="title-small pink">TV</div></a>
+                                <a href="../tags/comics" class="categories-pill w-inline-block"><div class="title-small pink">Comics</div></a>
+                                <a href="../tags/trailer" class="categories-pill w-inline-block"><div class="title-small pink">Trailer</div></a>
+                                <a href="../tags/casting" class="categories-pill w-inline-block"><div class="title-small pink">Casting</div></a>
+                            </div>
+                        </div>
+                        {page.data.map(post => (
+                            <BaseNieuwsItem
+                                key={post.url}
+                                url={post.url}
+                                title={post.frontmatter.title}
+                                thumbnail={post.frontmatter.thumbnail}
+                                date={post.frontmatter.date}
+                                content={post.rawContent}
+                            />
+                        ))}
+                        <div class="pagination-wrapper">
+                            <div class="pagination">
+                                {page.url.prev ? <a href={page.url.prev} class="previous-button w-inline-block"><div class="title-medium">Vorige</div></a> : null}
+                                {start > 1 ? <span>... </span> : null}
+                                {Array.from({ length: end - start + 1 }, (_, i) => i + start).map(number =>
+                                    number === currentPage ? (
+                                        <strong class="page-indicator" key={number}>{number}</strong>
+                                    ) : (
+                                        <a href={`./${number}`} key={number}>{number}</a>
+                                    )
+                                )}
+                                {end < totalPages ? <span> ...</span> : null}
+                                {page.url.next ? <a href={page.url.next} class="next-button w-inline-block"><div class="title-medium">Volgende</div></a> : null}
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            <BasePodcastBanner />
+        </div>
+        <BaseFooter />
+    </body>
+    <BaseScript />
+</html>
