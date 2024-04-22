@@ -3830,6 +3830,7 @@ margin-top: 10px;
     grid-template-columns: 1fr;
     grid-auto-columns: minmax(200px, .25fr);
     display: flex;
+    align-items: flex-start;
   }
 
   .content {
