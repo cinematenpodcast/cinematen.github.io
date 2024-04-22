@@ -17,7 +17,7 @@ Het trio acteurs heeft een open brief gepubliceerd waarin ze Lionsgate, de huidi
 De acteurs voelen zich jarenlang genegeerd en ondergewaardeerd door Lionsgate, die nu werkt aan een herleving van de Blair Witch-franchise zonder voldoende overleg met de originele cast. Deze teleurstelling komt voort uit het feit dat ze destijds slechts $300.000 elk ontvingen voor een volledige afstand van hun eigendomsrechten over de originele film, terwijl de studio aanzienlijke winsten behaalde.
 
 
-##Een Roep om Gerechtigheid
+## Een Roep om Gerechtigheid
 
 De vraag van de oorspronkelijke castleden is niet alleen een zoektocht naar financiële compensatie, maar ook naar erkenning voor hun bijdrage aan het succes en de erfenis van The Blair Witch Project. Hun wens om aspirant-filmmakers te ondersteunen met een genereuze subsidie getuigt van hun bereidheid om anderen te helpen dezelfde kansen te krijgen die zij zelf hebben gehad, zij het met minder erkenning en beloning.
 
