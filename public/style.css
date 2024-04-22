@@ -3717,7 +3717,7 @@ margin-top: 10px;
   }
 
   h2 {
-    font-size: 2.5rem;
+    font-size: 26px;
   }
 
   img {
@@ -3955,7 +3955,7 @@ margin-top: 10px;
   }
 
   h2 {
-    font-size: 2rem;
+    font-size: 22px;
   }
 
   h3 {
@@ -4280,7 +4280,7 @@ margin-top: 10px;
 
 @media screen and (max-width: 479px) {
   h2 {
-    font-size: 1.8rem;
+    font-size: 20px;
   }
 
   .heading-medium.text-color-white {
