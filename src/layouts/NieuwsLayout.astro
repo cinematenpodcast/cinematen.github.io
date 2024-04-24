@@ -30,6 +30,16 @@ function formatDate(dateString) {
 
 // Format the date
 const formattedDateTime = formatDate(frontmatter.date);
+
+export async function getStaticPaths() {
+  const posts = await getCollection("blog");
+  return posts.map((post) => ({
+    params: { slug: createSlug(post.data.title) },
+    props: post,
+  }));
+}
+type Props = CollectionEntry<"blog">;
+
 ---
 
 <html lang="nl">

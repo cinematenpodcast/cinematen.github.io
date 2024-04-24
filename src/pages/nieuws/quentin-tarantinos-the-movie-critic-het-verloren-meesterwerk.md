@@ -5,7 +5,7 @@ date: 2024-04-20
 soort: 'Film'
 thumbnail: 'https://www.slashfilm.com/img/gallery/director-quentin-tarantino-is-no-longer-pursuing-the-movie-critic-as-his-final-feature/intro-1713398061.jpg'
 trailer: ""
-slug: 'quentin-tarantinos-the-movie-critic-het-verloren-meesterwerk'
+slug: Quentin-Tarantino-stopt-met-The-Movie-Critic
 tags: ["film"]
 ---
 
