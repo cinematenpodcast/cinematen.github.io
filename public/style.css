@@ -2920,7 +2920,7 @@ margin-top: 10px;
   top: 0; /* Add this line */
   left: 0; /* Add this line */
   width: 100%; /* Add this line */
-  height: 100%; /* Add this line */
+  height: 120%; /* Add this line */
 }
 
 .profile-picture {
