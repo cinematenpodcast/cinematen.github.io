@@ -1,6 +1,6 @@
 ---
 layout: ../../layouts/NieuwsLayout.astro
-title: 'Apartment 7A komt er aan, de prequel van Rosemary's Baby'
+title: 'Apartment 7A komt er aan, de prequel van Rosemarys Baby'
 date: 2024-04-28
 soort: 'Film'
 thumbnail: 'https://www.slashfilm.com/img/gallery/we-finally-know-when-you-can-watch-apartment-7a-the-new-rosemarys-baby-prequel/intro-1714148551.jpg'
