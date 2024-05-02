@@ -1,6 +1,6 @@
 ---
 layout: ../../layouts/NieuwsLayout.astro
-title: 'Russell Crowe keert terug op zijn brommerke in The Pope's Exorcist sequel'
+title: "Russell Crowe keert terug op zijn brommerke in The Pope's Exorcist sequel"
 date: 2024-05-02
 soort: 'Film'
 thumbnail: 'https://www.slashfilm.com/img/gallery/the-popes-exorcist-2-will-bring-back-russell-crowe-for-more-demon-hunting-and-scooting-hopefully/intro-1714656331.jpg'
