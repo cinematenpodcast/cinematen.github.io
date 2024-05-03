@@ -10,7 +10,7 @@ import BaseNieuwsItem from "../../components/BaseNieuwsItem.astro"; // Corrected
 const allNieuwsPosts = await Astro.glob('./*.md');
 
 // Define the date threshold (replace 'your_date_string' with the desired date)
-const thresholdDate = new Date('2024-04-20');
+const thresholdDate = new Date('2024-04-27');
 
 // Filter posts based on the threshold date
 const filteredPosts = allNieuwsPosts.filter(post => new Date(post.frontmatter.date) >= thresholdDate);
