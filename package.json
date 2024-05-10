@@ -1,5 +1,5 @@
 {
-  "name": "",
+  "name": "cinematen.be-astro",
   "type": "module",
   "version": "0.0.1",
   "scripts": {
@@ -11,7 +11,12 @@
   },
   "dependencies": {
     "@astrojs/mdx": "^2.3.1",
-    "astro": "^4.6.3",
+    "astro": "^4.8.2",
     "astro-embed": "^0.7.1"
-  }
+  },
+  "description": "```sh npm create astro@latest -- --template minimal ```",
+  "main": "index.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
 }
