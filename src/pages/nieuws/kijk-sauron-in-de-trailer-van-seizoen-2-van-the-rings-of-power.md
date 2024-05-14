@@ -1,11 +1,11 @@
 ---
 layout: ../../layouts/NieuwsLayout.astro
-title: "Kijk, Sauron in de trailer van seizoen 2 van The Rings of Power"
+title: "Kijk! Sauron in de trailer van seizoen 2 van The Rings of Power"
 date: 2024-05-14 16:38:15
 soort: 'TV'
 thumbnail: 'https://www.slashfilm.com/img/gallery/the-lord-of-the-rings-the-rings-of-power-season-2-teaser-reveals-saurons-new-form/the-rings-of-power-returns-later-this-year-with-season-2-1715693767.jpg'
 trailer: "TCwmXY_f-e0"
-slug: 'het-nieuwe-seizoen-van-the-lord-of-the-rings-the-rings-of-power-werpt-licht-op-saurons-terugkeer'
+slug: 'kijk-sauron-in-de-trailer-van-seizoen-2-van-the-rings-of-power'
 tags: ["tv", "trailer"]
 ---
 
@@ -15,9 +15,7 @@ Na het succes van het eerste seizoen van "The Lord of the Rings: The Rings of Po
 
 De focus van het nieuwe seizoen ligt duidelijk op de terugkeer van de iconische slechterik Sauron, met Charlie Vickers die opnieuw de rol van Sauron vertolkt. Deze keer verschijnt Sauron echter in een compleet nieuwe gedaante, ontworpen om de inwoners van Midden-aarde te misleiden. Het verhaal zal zich verdiepen in de groeiende kwaadaardige aanwezigheid van Sauron en zijn genadeloze zoektocht naar absolute macht. 
 
-	>"In Season Two of The Rings of Power, Sauron has returned. Cast out by Galadriel, without army or ally, the rising Dark Lord must now rely on his own cunning to rebuild his strength and oversee the creation of the Rings of Power, which will allow him to bind all the peoples of Middle-earth to his 	sinister will," 
-
-aldus de officiële beschrijving.
+"In Season Two of The Rings of Power, Sauron has returned. Cast out by Galadriel, without army or ally, the rising Dark Lord must now rely on his own cunning to rebuild his strength and oversee the creation of the Rings of Power, which will allow him to bind all the peoples of Middle-earth to his 	sinister will," aldus de officiële beschrijving.
 
 ## And in the darkness bind them
 
