@@ -1,6 +1,6 @@
 ---
 layout: ../../layouts/NieuwsLayout.astro
-title: 'John Wick Spinoff goedgekeurd met Donnie Yen's Personage Caine'
+title: "John Wick Spinoff goedgekeurd met Donnie Yen's Personage Caine"
 date: 2024-05-17 09:11:12
 soort: 'Film'
 thumbnail: 'https://www.slashfilm.com/img/gallery/john-wick-spinoff-starring-donnie-yens-caine-is-happening-will-pay-off-that-credits-scene/intro-1715794230.jpg'
