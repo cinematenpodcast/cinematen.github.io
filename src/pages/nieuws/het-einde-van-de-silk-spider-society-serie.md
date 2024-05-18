@@ -2,11 +2,11 @@
 layout: ../../layouts/NieuwsLayout.astro
 title: 'Het Einde van de "Silk: Spider Society" Serie'
 date: 2024-05-18 10:53:47
-soort: 'zet hier TV of Film'
+soort: 'TV'
 thumbnail: 'https://www.slashfilm.com/img/gallery/marvel-and-sonys-silk-spider-society-series-is-no-more/intro-1715950755.jpg'
 trailer: ""
 slug: 'het-einde-van-de-silk-spider-society-serie'
-tags: []
+tags: ["tv", "comics"]
 ---
 
 Het langverwachte live-action tv-programma "Silk: Spider Society" heeft een onfortuinlijk einde bereikt, zo meldt Deadline. Na jaren van ontwikkeling is het project gestrand en zal niet doorgaan zoals gepland. Eerder deze week kondigden MGM+ en Prime Video aan dat Nicolas Cage de hoofdrol zal spelen in zijn eigen live-action Spider-Verse spin-off genaamd "Noir." Dit nieuws kwam echter zonder enige update over "Silk," een serie die bedoeld was om de schijnwerper te richten op de Koreaans-Amerikaanse superheld Cindy Moon. De rechten voor het personage zullen naar verluidt terugkeren naar Sony Pictures Television, die zal blijven zoeken naar een geschikte plek voor de show.
@@ -19,13 +19,4 @@ Het project bleef veranderingen ondergaan; in 2022, na de overname van MGM door 
 
 Het is begrijpelijk dat de leidinggevenden hun aanbod moesten inkrimpen gezien de lauwe ontvangst van de meeste niet-"Venom," niet-geanimeerde "Spider-Verse" projecten in de afgelopen jaren. De Jared Leto-geleide vampierenfilm "Morbius" uit 2022 flopte aan de box office en werd meteen berucht vanwege zijn negatieve blockbuster-energie, terwijl "Madame Web," eerder dit jaar uitgebracht, het ook niet goed deed in de bioscopen. Toekomstige Spidey-gerelateerde projecten zullen het moeten waarmaken om zo veel spin-offs en zijprojecten te rechtvaardigen, en het is nog maar de vraag of de dit jaar uitgebrachte "Kraven the Hunter" hierin zal slagen.
 
-## Het Lot van "Silk" en Teleurstelling
-
 Desondanks is het frustrerend om te zien hoe een boeiend verhaal over een jonge vrouw van kleur hier het onderspit delft. Volgens het rapport van Deadline is "Silk" minstens drie keer herschreven en werd de schrijverskamer niet tijdig opnieuw samengesteld na de beëindiging van de WGA-staking van vorig jaar. Uiteindelijk noemt het medium budgettoewijzingszorgen als een belangrijke reden voor de annulering van de show.
-
-# Bronnen
-- Artikel 1 door Joe Otterson
-- Artikel 2 door Deadline
-- Artikel 3 door The Hollywood Reporter
-
-This concludes the response based on the provided articles. If you have any more requests or need further assistance, feel free to let me know!
