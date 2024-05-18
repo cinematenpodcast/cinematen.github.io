@@ -4,7 +4,7 @@ title: 'Halle Berry schittert in de trailer voor de nieuwe horrorfilm Never Let 
 date: 2024-05-18 10:43:23
 soort: 'Film'
 thumbnail: 'https://www.slashfilm.com/img/gallery/halle-berry-deals-with-end-of-the-world-horror-in-the-never-let-go-trailer/never-let-go-is-a-new-horror-movie-starring-halle-berry-1715866545.jpg'
-trailer: ""
+trailer: "ZDfRp_ukHDU"
 slug: 'halle-berrys-nieuwe-horrorfilm-never-let-go-verkent-moederlijke-bescherming-in-een-post-apocalyptische-wereld'
 tags: ["film", "trailer"]
 ---
