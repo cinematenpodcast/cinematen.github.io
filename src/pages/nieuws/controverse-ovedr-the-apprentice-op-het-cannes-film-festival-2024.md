@@ -1,6 +1,6 @@
 ---
 layout: ../../layouts/NieuwsLayout.astro
-title: 'Controverse ovedr "The Apprentice" op het Cannes Film Festival 2024'
+title: 'Controverse over The Apprentice op het Cannes Film Festival 2024'
 date: 2024-05-20 22:44:54
 soort: 'Film'
 thumbnail: 'https://www.slashfilm.com/img/gallery/why-a-new-donald-trump-movie-is-generating-controversy-ahead-of-its-premiere/intro-1716226561.jpg'
