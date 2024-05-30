@@ -1,6 +1,6 @@
 ---
 layout: ../../layouts/NieuwsLayout.astro
-title: 'Tom Bombadil in The Rings of Power
+title: 'Tom Bombadil in The Rings of Power'
 date: 2024-05-30 13:45:32
 soort: 'TV'
 thumbnail: 'https://cinematen.be/images/tom-bombadil.webp'
