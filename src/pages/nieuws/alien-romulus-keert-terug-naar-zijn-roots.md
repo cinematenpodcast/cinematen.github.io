@@ -2,7 +2,7 @@
 layout: ../../layouts/NieuwsLayout.astro
 title: 'Alien: Romulus keert terug naar zijn roots'
 date: 2024-06-07 14:34:28
-soort: 'zet hier TV of Film'
+soort: 'Film'
 thumbnail: 'https://www.slashfilm.com/img/gallery/astronauts-unwisely-explore-an-abandoned-space-station-in-new-alien-romulus-trailer/youll-be-hearing-a-lot-of-screams-watching-alien-romulus-1717377573.jpg'
 trailer: "OzY2r2JXsDM"
 slug: 'het-terugkeer-naar-horrorwortels-van-de-alien-franchise'
