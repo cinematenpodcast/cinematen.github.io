@@ -44,11 +44,12 @@ type Props = CollectionEntry<"blog">;
 
 <html lang="nl">
     <head>
-        <BaseHeadNieuws 
-        title={frontmatter.title} 
-        content={rawContent} 
-        thumbnail={frontmatter.thumbnail} 
+        
+      <BaseHeadNieuws
+          title={frontmatter.title}
+          thumbnail={frontmatter.thumbnail}
         />
+      
     </head>
     <body class="body">
         <div class="page-wrapper">
