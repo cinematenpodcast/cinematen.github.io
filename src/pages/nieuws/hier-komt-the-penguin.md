@@ -3,7 +3,7 @@ layout: ../../layouts/NieuwsLayout.astro
 title: 'Hier komt The Penguin'
 date: 2024-06-24 12:50:38
 soort: 'TV'
-thumbnail: 'https://www.slashfilm.com/img/gallery/colin-farrells-batman-villain-starts-a-gotham-mob-war-in-the-penguin-trailer/the-penguin-struts-his-stuff-this-september-1718893954.jpg'
+thumbnail: 'https://legendary-digital-network-assets.s3.amazonaws.com/wp-content/uploads/2022/11/08145212/The-Penguin-lounging.jpg'
 trailer: "D2uSwItbBAg"
 slug: 'de-opkomst-van-the-penguin-een-diepere-duik-in-de-max-serie'
 tags: ["tv","trailer"]
