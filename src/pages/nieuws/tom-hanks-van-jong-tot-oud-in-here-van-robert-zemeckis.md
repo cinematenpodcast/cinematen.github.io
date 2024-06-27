@@ -4,7 +4,7 @@ title: 'Tom Hanks van jong tot oud in "Here" van Robert Zemeckis'
 date: 2024-06-27 12:39:39
 soort: 'Film'
 thumbnail: 'https://www.slashfilm.com/img/gallery/here-trailer/come-stay-here-this-fall-1719409050.jpg'
-trailer: ""
+trailer: "I_id-SkGU2k"
 slug: 'robert-zemeckis-een-cinematische-tijdreiziger'
 tags: ["film","trailer","casting"]
 ---
