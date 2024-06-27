@@ -55,7 +55,7 @@ const starRatingImages = generateStarRating(validatedRating);
                 <div class="rating-container">
                     <div class="rating">
                 {starRatingImages.map(starImage => (
-                  <img src={starImage} loading="lazy" alt="" class="star-image" />
+                  <img src={starImage} loading="eager" alt="" class="star-image" />
                 ))}
                     </div>
                 </div>
