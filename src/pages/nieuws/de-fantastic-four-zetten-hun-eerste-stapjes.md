@@ -1,7 +1,7 @@
 ---
 layout: ../../layouts/NieuwsLayout.astro
 title: 'De Fantastic Four zetten hun eerste stapjes'
-date: 2024-07-28 09:23:52
+date: 2024-07-28 08:23:52
 soort: 'Film'
 thumbnail: 'https://www.slashfilm.com/img/gallery/marvels-fantastic-4-gets-new-title-as-early-footage-screens-at-comic-con/intro-1722133631.jpg'
 trailer: ""
