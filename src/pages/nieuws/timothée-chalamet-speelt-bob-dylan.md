@@ -1,11 +1,11 @@
 ---
 layout: ../../layouts/NieuwsLayout.astro
-title: 'Timothée Chalamet: Van Acteur tot Bob Dylan'
+title: 'Timothée Chalamet speelt Bob Dylan'
 date: 2024-07-24 13:14:55
 soort: 'Film'
 thumbnail: 'https://www.slashfilm.com/img/gallery/a-complete-unknown-trailer-shell/a-complete-unknown-arrives-this-december-1721828718.jpg'
 trailer: "TcNNteP22gQ"
-slug: 'timothée-chalamet-van-acteur-tot-bob-dylan'
+slug: 'timothée-chalamet-speelt-bob-dylan'
 tags: ["film","trailer"]
 ---
 
