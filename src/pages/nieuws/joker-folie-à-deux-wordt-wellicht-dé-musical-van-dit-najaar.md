@@ -1,6 +1,6 @@
 ---
 layout: ../../layouts/NieuwsLayout.astro
-title: 'Joker: Folie à Deux wordt wellicht dé musical van dit najaar'
+title: 'Joker Folie à Deux wordt wellicht dé musical van dit najaar'
 date: 2024-07-23 13:21:46
 soort: 'Film'
 thumbnail: 'https://www.slashfilm.com/img/gallery/joker-2-trailer-shell-trailer-on-tuesday-723/the-world-smiles-with-joker-folie-deux-this-fall-1721742076.jpg'
