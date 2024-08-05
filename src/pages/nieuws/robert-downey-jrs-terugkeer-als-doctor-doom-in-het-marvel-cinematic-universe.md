@@ -1,6 +1,6 @@
 ---
 layout: ../../layouts/NieuwsLayout.astro
-title: 'Robert Downey Jr. en de Russo broers dik betaald voor hun terugkeer"
+title: 'Robert Downey Jr. en de Russo broers dik betaald voor hun terugkeer'
 date: 2024-08-05 19:07:19
 soort: 'Film'
 thumbnail: 'https://www.slashfilm.com/img/gallery/robert-downey-jr-s-doctor-doom-could-make-his-debut-sooner-than-marvel-fans-think/intro-1722450525.jpg'
