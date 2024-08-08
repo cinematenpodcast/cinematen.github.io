@@ -3,7 +3,7 @@ layout: ../../layouts/NieuwsLayout.astro
 title: "Warriors, de nieuwe muzikale creatie van Hamilton's Lin-Manuel Miranda komt er aan"
 date: 2024-08-08 11:04:57
 soort: 'Musical'
-thumbnail: 'https://www.slashfilm.com/img/gallery/the-first-reactions-to-eli-roths-borderlands-movie-are-all-saying-the-same-thing/intro-1723046933.jpg'
+thumbnail: 'https://static1.moviewebimages.com/wordpress/wp-content/uploads/2023/08/lin-manuel-miranda-the-warriors.jpg'
 trailer: ""
 slug: 'de-nieuwe-muzikale-creatie-van-lin-manuel-miranda-warriors-conceptalbum'
 tags: ["film"]
