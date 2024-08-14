@@ -16,6 +16,7 @@ const thresholdDate = new Date('2024-07-12');
 // Filter posts based on the threshold date
 const filteredPosts = allNieuwsPosts.filter(post => new Date(post.frontmatter.date) >= thresholdDate);
 
+exclude_from_search: true
 ---
 
 <html lang="nl">

@@ -55,6 +55,8 @@ let filteredPosts =
 let tagged = filteredPosts.filter((p) => { 
   return p.frontmatter.tags.map(tag => tag.toLowerCase().replace(/:/g, '')).includes(tagname); 
 });
+
+exclude_from_search: true
 ---
 
 <html lang="nl">
