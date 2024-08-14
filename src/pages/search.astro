@@ -1,0 +1,35 @@
+---
+// Import necessary components
+import BaseHead from "../components/BaseHead.astro";
+import BaseHeader from "../components/BaseHeader.astro";
+import BaseScript from "../components/BaseScript.astro";
+import BaseFooter from "../components/BaseFooter.astro";
+import BaseNavmenu from "../components/BaseNavmenu.astro";
+import BasePodcastBanner from "../components/BasePodcastBanner.astro";
+import BaseReviewItem from "../components/BaseReviewItem.astro"; // Corrected component name from Niews to Nieuws
+import SearchField from "../components/SearchField.astro";
+
+---
+
+<html lang="nl">
+    <head>
+        <BaseHead/>
+    </head>
+    <body class="body">
+        <div class="page-wrapper">
+            <BaseNavmenu />
+            <BaseHeader />
+            <div class="content">
+                <div class="container">
+                    <h1 class="nieuws-title">Zoeken</h1>
+                    <SearchField />
+                    <div class="search-container">
+                        <input type="text" placeholder="Search..." class="search-bar">
+                    </div>
+                </div>
+            <BasePodcastBanner />
+        </div>
+        <BaseFooter />
+    </body>
+    <BaseScript />
+</html>

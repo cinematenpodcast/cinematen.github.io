@@ -4822,3 +4822,41 @@ a {
 .empty-space-l {
   padding: 50px 0;
 }
+
+
+.search-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.search-bar {
+  width: 100%;
+  max-width: 900px; /* Default width for larger screens */
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  font-size: 16px;
+  outline: none;
+  transition: border-color 0.3s ease;
+}
+
+.search-bar:focus {
+  border-color: #007BFF; /* Change the border color on focus */
+}
+
+/* Tablet devices */
+@media (max-width: 768px) {
+  .search-bar {
+      max-width: 400px; /* Adjusted width for tablets */
+  }
+}
+
+/* Mobile devices */
+@media (max-width: 480px) {
+  .search-bar {
+      max-width: 300px; /* Adjusted width for mobile phones */
+      font-size: 14px;   /* Slightly smaller font size for mobile */
+      padding: 8px;      /* Slightly reduced padding for mobile */
+  }
+}
