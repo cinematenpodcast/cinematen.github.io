@@ -7,6 +7,7 @@ import BaseFooter from "../../../components/BaseFooter.astro";
 import BaseNavmenu from "../../../components/BaseNavmenu.astro";
 import BasePodcastBanner from "../../../components/BasePodcastBanner.astro";
 import BaseReviewItem from "../../../components/BaseReviewItem.astro";
+import BaseHeadExclude from "../../../components/BaseHeadExclude.astro";
 
 export async function getStaticPaths () {
   // grab all .md files from a folder
@@ -58,8 +59,7 @@ let tagged = filteredPosts.filter((p) => {
 
 <html lang="nl">
     <head>
-        <BaseHead/>
-        <meta name="pagefind-noindex" content="true" />
+        <BaseHeadExclude />
     </head>
     <body class="body">
         <div class="page-wrapper">

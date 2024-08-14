@@ -6,6 +6,7 @@ import BaseScript from "../../components/BaseScript.astro";
 import BaseFooter from "../../components/BaseFooter.astro";
 import BaseNavmenu from "../../components/BaseNavmenu.astro";
 import BaseNieuwsItem from "../../components/BaseNieuwsItem.astro"; // Corrected component name from Niews to Nieuws
+import BaseHeadExclude from "../../components/BaseHeadExclude.astro";
 
 const allNieuwsPosts = await Astro.glob('./*.md');
 
@@ -19,8 +20,7 @@ const filteredPosts = allNieuwsPosts.filter(post => new Date(post.frontmatter.da
 
 <html lang="nl">
     <head>
-        <meta name="pagefind-noindex" content="true" />
-        <BaseHead/>
+        <BaseHeadExclude />
     </head>
     <body class="body">
         <div class="page-wrapper">
