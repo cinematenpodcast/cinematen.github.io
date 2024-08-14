@@ -33,13 +33,12 @@ const divProps = {
         bundlePath,
         showImages: false,
         debounceTimeoutMs: 100,
-      });
-
-      // Filter out pages with "pagefind-noindex" meta
-      pagefind.on('results', (results) => {
-        results.matches = results.matches.filter(result => {
-          return !result.meta.hasOwnProperty('pagefind-noindex');
-        });
+        filters: {
+          exclude: {
+            // This filters out any page that has exclude_from_search set to true
+            "exclude_from_search": "true",
+          },
+        },
       });
 
       const input = el.querySelector<HTMLInputElement>(`input[type="text"]`);
