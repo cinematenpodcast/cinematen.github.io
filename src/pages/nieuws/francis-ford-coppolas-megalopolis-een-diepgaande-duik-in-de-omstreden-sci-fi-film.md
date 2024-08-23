@@ -1,6 +1,6 @@
 ---
 layout: ../../layouts/NieuwsLayout.astro
-title: "Francis Ford Coppola zegt F*ck You tegen kritiek op Megalopolis'
+title: "Francis Ford Coppola zegt F*ck You tegen kritiek op Megalopolis"
 date: 2024-08-21 18:53:27
 soort: 'Film'
 thumbnail: 'https://www.slashfilm.com/img/gallery/megalopolis-trailer-shell/is-megapolis-coppolas-next-misunderstood-masterpiece-1724249502.jpg'
