@@ -4,10 +4,13 @@ title: "Francis Ford Coppola zegt F*ck You tegen kritiek op Megalopolis"
 date: 2024-08-21 18:53:27
 soort: 'Film'
 thumbnail: 'https://www.slashfilm.com/img/gallery/megalopolis-trailer-shell/is-megapolis-coppolas-next-misunderstood-masterpiece-1724249502.jpg'
-trailer: "bgbjQIbuI_s"
+trailer: ""
 slug: 'francis-ford-coppolas-megalopolis-een-diepgaande-duik-in-de-omstreden-sci-fi-film'
 tags: ["film","trailer"]
 ---
+
+**De info in dit artikel is ondertussen achterhaald, voor een update over dit onderwerp kan je [hier](https://cinematen.be/nieuws/de-trailer-van-megalopolis-is-offline-gehaald-coppolo-heeft-gelogen/) terecht!**
+
 
 Na een decennia lange reis van creatie en financiering staat "Megalopolis", het nieuwste epische werk van Francis Ford Coppola, op het punt het bioscooppubliek te betoveren.. of te vervelen. Met een budget van $120 miljoen dat volledig uit eigen zak is gefinancierd, belooft deze film een cinematografisch spektakel te worden, maar is dat genoeg?
 
