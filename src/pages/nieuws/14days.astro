@@ -11,7 +11,7 @@ import BaseHeadExclude from "../../components/BaseHeadExclude.astro";
 const allNieuwsPosts = await Astro.glob('./*.md');
 
 // Define the date threshold (replace 'your_date_string' with the desired date)
-const thresholdDate = new Date('2024-08-19');
+const thresholdDate = new Date('2024-08-23');
 
 // Filter posts based on the threshold date
 const filteredPosts = allNieuwsPosts.filter(post => new Date(post.frontmatter.date) >= thresholdDate);
