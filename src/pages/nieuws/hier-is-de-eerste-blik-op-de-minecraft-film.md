@@ -6,7 +6,7 @@ soort: 'Film'
 thumbnail: 'https://www.slashfilm.com/img/gallery/minecraft-movie-trailer-shell/jack-black-is-steve-in-the-minecraft-movie-1725458231.jpg'
 trailer: "PE2YZhcC4NY"
 slug: 'de-minecraft-film-verwachtingen-en-realiteit'
-tags: ["film,"trailer"]
+tags: ["film","trailer"]
 ---
 
 De langverwachte trailer voor de live-action Minecraft-film heeft zowel enthousiasme als scepsis opgeroepen bij fans van het populaire bouwvideospel. Met sterren als Jack Black en Jason Momoa belooft deze film een unieke kijk te bieden op de geliefde game die wereldwijd meer dan 300 miljoen exemplaren heeft verkocht.
