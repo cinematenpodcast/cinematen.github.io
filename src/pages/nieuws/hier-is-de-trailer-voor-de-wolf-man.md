@@ -6,7 +6,7 @@ soort: 'Film'
 thumbnail: 'https://www.slashfilm.com/img/gallery/universal-hides-its-controversial-monster-in-leigh-whannells-creepy-wolf-man-trailer/the-wolf-man-teaser-is-right-to-keep-the-monster-hidden-1725641248.jpg'
 trailer: "ZZ2xPwXJpLM"
 slug: 'universals-wolf-man---een-nieuwe-kijk-op-een-klassieke-griezel'
-tags: ["film","trailer]
+tags: ["film","trailer"]
 ---
 
 Universal Pictures heeft zijn klassieke monster, de Wolf Man, nieuw leven ingeblazen met een aankomende remake die op 17 januari 2025 in de bioscopen zal verschijnen. Geregisseerd door Leigh Whannell en geproduceerd door Blumhouse Productions, belooft deze herinterpretatie van het iconische personage zowel horrorfans als liefhebbers van het genre te bekoren.
