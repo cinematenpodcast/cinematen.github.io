@@ -39,7 +39,7 @@ De avond werd gehost door het vader-zoon duo en "Schitt's Creek" sterren Dan en 
 - **Beste acteur in een bijrol in een comedyserie**: Ebon Moss-Bachrach, The Bear
 - **Beste actrice in een bijrol in een comedyserie**: Liza Colon-Zayas, The Bear
 - **Beste script voor een comedyserie**: Hacks, Bulletproof – Lucia Aniello, Paul W. Downs en Jen Statsky
-- **Beste regisseur voor een comedyserie**: The Bear, Fishes – Christopher Storer
+- **Beste regisseur voor een comedyserie**: The Bear – Christopher Storer
 
 
 
