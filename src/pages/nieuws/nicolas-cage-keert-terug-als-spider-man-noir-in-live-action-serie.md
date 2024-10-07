@@ -1,26 +1,24 @@
 ---
 layout: ../../layouts/NieuwsLayout.astro
-title: 'Nicolas Cage keert terug als Spider-Man Noir in live-action serie'
-date: 2024-05-14 16:24:16
+title: "Eerste foto's van Nicolas Cage als Spider-Man Noir"
+date: 2024-10-07 11:28:15
 soort: 'TV'
-thumbnail: 'https://www.slashfilm.com/img/gallery/nicolas-cage-to-reprise-spider-verse-role-in-spider-man-noir-live-action-series/intro-1715693836.jpg'
+thumbnail: 'https://cdn01.justjared.com/wp-content/uploads/headlines/2024/10/cage-noir.jpg'
 trailer: ""
 slug: 'nicolas-cage-keert-terug-als-spider-man-noir-in-live-action-serie'
-tags: ["tv", "casting"]
+tags: ["tv","casting"]
 ---
 
-Nicolas Cage zal opnieuw de rol van Spider-Man Noir vertolken, dit keer in een live-action serie genaamd "Noir." Deze aankondiging komt nadat Amazon Prime Video en MGM+ het groene licht gaven voor de productie van deze Marvel-reeks. 
+Nicolas Cage maakt zijn comeback als Spider-Man Noir, maar dit keer in een live-action serie. De acteur zal de hoofdrol spelen in de serie "Noir", die is besteld voor MGM+ en Amazon Prime Video. In deze eerste setfoto's zien we hem in een klassiek detective kostuum.
 
-Na zijn optreden in de bekroonde animatiefilm "Spider-Man: Into the Spider-Verse," zal Cage nu de noir-versie van Spider-Man spelen in een verhaal dat zich afspeelt in het New York van de jaren '30. Hierin moet de gealtereerde privédetective zowel zijn verleden als superheld als zijn huidige situatie onder ogen zien.
+![https://statics.memondo.com/p/s1/vrus/2024/10/VRU_250754_7e91a00006924c04a685b9d660410052__el_spider_man_noir_de_nicolas_cage_empieza_a_tomar_forma_360px.jpg](https://statics.memondo.com/p/s1/vrus/2024/10/VRU_250754_7e91a00006924c04a685b9d660410052__el_spider_man_noir_de_nicolas_cage_empieza_a_tomar_forma_360px.jpg)
 
-## Nic Cage voor het eerst op het kleine scherm
+"Met 'Noir' het Marvel-universum uitbreiden is een bijzondere kans, en we zijn vereerd om deze serie naar onze wereldwijde Prime Video-klanten te brengen," aldus Vernon Sanders, hoofd televisie van Amazon MGM Studios. Hij prijst de keuze voor Nicolas Cage als de nieuwe superheld en benadrukt het toegewijde team achter de serie, met onder andere Phil Lord, Christopher Miller, Amy Pascal en Sony.
 
-"Noir" is ontwikkeld door Oren Uziel en Steve Lightfoot, met Phil Lord en Christopher Miller, de regisseurs van de "Spider-Verse" animatiefilms, als producenten. Samen met Amy Pascal zullen zij ook als uitvoerend producenten fungeren voor deze reeks. De serie wordt geproduceerd door Sony Pictures Television en Amazon MGM Studios.
+Cage vertolkte eerder de rol van Spider-Man Noir in de met een Academy Award bekroonde animatiefilm "Spider-Man: Into the Spider-Verse." Dit zal echter de eerste keer zijn dat het personage in een live-action project wordt vertegenwoordigd. Het verhaal van "Noir" draait om een oudere en door pech geplaagde privédetective in het New York van de jaren 1930, die gedwongen wordt om af te rekenen met zijn vroegere leven als de enige superheld van de stad.
 
-De keuze voor Cage als hoofdrolspeler was unaniem. Katherine Pope, president van Sony Pictures Television Studios, prees Cage om zijn vermogen om pathos, pijn en hart in het personage te brengen. Deze karakteristieken zijn essentieel voor het verkennen van dit herziene verhaal van een iconisch personage binnen Sony's Marvel-universum. Dit zal ook de eerste keer zijn dat Nicolas Cage speelt in een TV reeks.
+De serie wordt ontwikkeld door Oren Uziel en Steve Lightfoot, die tevens optreden als mede-showrunners en uitvoerend producenten. Zij werkten samen met het team achter "Into the Spider-Verse," waaronder Phil Lord, Christopher Miller en Amy Pascal, die ook als uitvoerend producenten fungeren. Harry Bradbeer zal de eerste twee afleveringen regisseren en eveneens als uitvoerend producent optreden. De serie wordt geproduceerd door Sony Pictures Television en Amazon MGM Studios, waarbij Lord en Miller momenteel onder een algemene overeenkomst bij Sony staan.
 
-Het feit dat deze serie eerst op MGM+ zal debuteren, voordat deze op Prime Video verschijnt, markeert een strategische zet in de distributie van content binnen het Amazon-netwerk. Met de successen van eerdere Marvel-projecten en de toenemende vraag naar superheldenverhalen, lijkt "Noir" goed gepositioneerd om kijkers wereldwijd te boeien en te vermaken.
+"Ik ben absoluut verheugd dat Nicolas Cage de hoofdrol speelt in deze serie! Niemand anders kan zoveel pathos, pijn en hart in dit unieke personage steken," verklaarde Katherine Pope, president van Sony Pictures Television Studios. Samen met de producenten en partners bij Amazon MGM Studios en Prime Video vormen zij een team dat perfect geschikt is om deze herinterpretatie van zo'n iconisch personage in het Marvel-universum van Sony te verkennen.
 
-Met series als "Silk: Spider Society" en de recent aangekondigde "Noir," lijkt Amazon vastbesloten om het Marvel-universum uit te breiden en te diversifiëren. Het partnerschap met gerenommeerde producenten en acteurs zoals Nicolas Cage belooft een boeiende en authentieke kijkervaring voor fans van superheldencontent.
-
-Het blijft echter nog onbekend wanneer "Noir" officieel zal worden uitgebracht. Zowel Cage als de betrokken productieteams staan klaar om een nieuw hoofdstuk toe te voegen aan de rijke geschiedenis van Marvel-verhalen op het kleine scherm.
+Het wordt de eerste reguliere televisierol in de carrière van Cage, die vooral bekend staat om zijn filmwerk. Hij won eerder een Academy Award voor beste acteur voor "Leaving Las Vegas" en werd genomineerd in dezelfde categorie voor "Adaptation." Cage heeft ook spraakmakende rollen gehad in films als "Moonstruck," "Raising Arizona," "Face/Off," en de "National Treasure" en "Ghost Rider" films. 
