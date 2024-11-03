@@ -1,6 +1,6 @@
 ---
 layout: ../../layouts/NieuwsLayout.astro
-title: De Reis van James Gunn in de Filmwereld
+title: James Gunn van Guardians tot Superman
 date: 2024-11-03T11:42:44.169-05:00
 soort: 'film'
 thumbnail: 'https://wegotthiscovered.com/wp-content/uploads/2023/01/james-gunn-action-comics-superman-dc.jpg'
