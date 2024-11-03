@@ -3,7 +3,7 @@ layout: ../../layouts/NieuwsLayout.astro
 title: De Reis van James Gunn in de Filmwereld
 date: 2024-11-03T11:42:44.169-05:00
 soort: 'film'
-thumbnail: 'https://www.slashfilm.com/img/gallery/james-gunns-favorite-movies-list-includes-one-of-the-best-westerns-ever-made/l-intro-1730244454.jpg'
+thumbnail: 'https://wegotthiscovered.com/wp-content/uploads/2023/01/james-gunn-action-comics-superman-dc.jpg'
 trailer: ""
 slug: 'de-reis-van-james-gunn-in-de-filmwereld'
 tags: ["film"]
