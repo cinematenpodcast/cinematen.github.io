@@ -1,12 +1,13 @@
 ---
-layout: ../../layouts/NieuwsLayout.astro
-title: Harrison Ford Hulked vollenbak in Captain America Brave New World
-date: 2024-11-09T02:23:58.078+2:00
-soort: 'film'
-thumbnail: 'https://www.slashfilm.com/img/gallery/captain-america-brave-new-world-trailer-shell/l-intro-1731188359.jpg'
+layout: "../../layouts/NieuwsLayout.astro"
+title: "Harrison Ford Hulked vollenbak in Captain America Brave New World"
+date: "2024-11-09T02:23:58.078+02:00"
+soort: "film"
+thumbnail: "https://www.slashfilm.com/img/gallery/captain-america-brave-new-world-trailer-shell/l-intro-1731188359.jpg"
 trailer: "1pHDWnXmK7Y"
-slug: 'harrison-ford-hulked-vollenbak-in-captain-america-brave-new-world'
-tags: ["film"]
+slug: "harrison-ford-hulked-vollenbak-in-captain-america-brave-new-world"
+tags:
+  - "film"
 ---
 
 De nieuwe film Captain America: Brave New World komt eraan en zal op 14 februari
