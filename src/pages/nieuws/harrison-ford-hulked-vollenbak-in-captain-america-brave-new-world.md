@@ -1,7 +1,6 @@
 ---
 layout: ../../layouts/NieuwsLayout.astro
 title: Harrison Ford Hulked vollenbak in Captain America Brave New World
-date: 2024-11-09T17:29:03.598-05:00
 soort: 'film'
 thumbnail: 'https://www.slashfilm.com/img/gallery/captain-america-brave-new-world-trailer-shell/l-intro-1731188359.jpg'
 trailer: "1pHDWnXmK7Y"
