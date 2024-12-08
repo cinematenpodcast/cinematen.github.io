@@ -5,7 +5,7 @@ date: 2024-12-08T02:50:57.936-05:00
 soort: 'tv'
 thumbnail: 'https://www.slashfilm.com/img/gallery/severance-season-2-trailer-reveals-the-consequences-of-that-cliffhanger-ending/l-intro-1733596586.jpg
 '
-trailer: ""
+trailer: "_UXKlYvLGJY"
 slug: 'een-nieuwe-trailer-en-nieuwe-hype-voor-severance-seizoen-2'
 tags: ["tv"]
 ---
