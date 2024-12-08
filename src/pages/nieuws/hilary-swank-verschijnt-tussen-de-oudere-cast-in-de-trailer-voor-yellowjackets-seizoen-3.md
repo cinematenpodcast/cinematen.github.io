@@ -1,7 +1,6 @@
 ---
 layout: ../../layouts/NieuwsLayout.astro
-title: Hilary Swank verschijnt tussen de oudere cast in de trailer voor Yellowjackets
-Seizoen 3
+title: Hilary Swank verschijnt tussen de oudere cast in de trailer voor Yellowjackets Seizoen 3
 date: 2024-12-08T03:19:42.359-05:00
 soort: 'tv'
 thumbnail: 'https://www.slashfilm.com/img/gallery/yellowjackets-season-3-trailer-adds-hilary-swank-to-the-hive/l-intro-1733609581.jpg
