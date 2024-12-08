@@ -5,7 +5,7 @@ date: 2024-12-08T03:19:42.359-05:00
 soort: 'tv'
 thumbnail: 'https://www.slashfilm.com/img/gallery/yellowjackets-season-3-trailer-adds-hilary-swank-to-the-hive/l-intro-1733609581.jpg
 '
-trailer: ""
+trailer: "EUB7eqmK4vg"
 slug: 'hilary-swank-verschijnt-tussen-de-oudere-cast-in-de-trailer-voor-yellowjackets-seizoen-3'
 tags: ["tv"]
 ---
