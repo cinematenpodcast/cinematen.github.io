@@ -5,7 +5,7 @@ date: 2024-12-10T14:27:25.855+01:00
 soort: 'film'
 thumbnail: 'https://www.slashfilm.com/img/gallery/28-years-later-trailer-shell/l-intro-1733823491.jpg
 '
-trailer: ""
+trailer: "mcvLKldPM08"
 slug: 'de-eerste-trailer-van-28-years-later'
 tags: ["film"]
 ---
