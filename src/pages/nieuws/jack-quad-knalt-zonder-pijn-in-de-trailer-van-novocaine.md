@@ -5,7 +5,7 @@ date: 2024-12-12T18:28:25.736+01:00
 soort: 'film'
 thumbnail: 'https://www.slashfilm.com/img/gallery/the-boys-star-jack-quaid-has-a-weird-superpower-in-action-packed-novocaine-trailer/l-intro-1734017825.jpg
 '
-trailer: ""
+trailer: "-PyOIlJEdqA"
 slug: 'jack-quad-knalt-zonder-pijn-in-de-trailer-van-novocaine'
 tags: ["film"]
 ---
