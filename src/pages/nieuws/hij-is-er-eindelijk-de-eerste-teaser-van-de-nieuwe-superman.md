@@ -5,7 +5,7 @@ date: 2024-12-19T21:36:16.812+01:00
 soort: 'film'
 thumbnail: 'https://www.slashfilm.com/img/gallery/for-director-james-gunn-the-new-superman-movie-is-about-one-thing/l-intro-1734617382.jpg
 '
-trailer: ""
+trailer: "uhUht6vAsMY"
 slug: 'hij-is-er-eindelijk-de-eerste-teaser-van-de-nieuwe-superman'
 tags: ["film"]
 ---
