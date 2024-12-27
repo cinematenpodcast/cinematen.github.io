@@ -3713,6 +3713,7 @@ margin-top: 10px;
 
 .image-3 {
   margin-top: 15px;
+  margin-bottom: 15px;
 }
 
 @media screen and (max-width: 991px) {
@@ -4488,7 +4489,7 @@ margin-top: 10px;
 
   .header-text {
     grid-column-gap: 9px;
-    grid-row-gap: 0px;
+    grid-row-gap: 10px;
     padding-top: 5px;
   }
 
@@ -4858,5 +4859,60 @@ a {
       max-width: 300px; /* Adjusted width for mobile phones */
       font-size: 14px;   /* Slightly smaller font size for mobile */
       padding: 8px;      /* Slightly reduced padding for mobile */
+  }
+}
+
+.partner-text {
+  display: flex;
+  justify-content: center; /* Center-align the content */
+  align-items: baseline; /* Align content to the text baseline */
+  margin-bottom: 0px; /* Space between this and the next line */
+  font-size: 26px; /* Adjust text size */
+  color: #fff; /* Text color */
+  font-weight: bold; /* Optional bold style */
+  gap: 10px; /* Consistent spacing between elements */
+}
+
+.partner-logo {
+  width: 70px; /* Slightly reduce width for better alignment */
+  height: auto; /* Maintain aspect ratio */
+  margin: 0 5px; /* Adjust spacing around the logo */
+  vertical-align: baseline; /* Align the bottom of the logo with the text baseline */
+  display: inline-block; /* Ensure proper alignment with the text */
+}
+
+.cinematen-logo-text {
+  text-align: center; /* Center-align the main header */
+  margin-top: 0px;
+  margin-left: 0; /* Reset margin adjustment */
+  padding-left: 0; /* Reset padding */
+  font-size: 53px; /* Adjust font size */
+}
+
+.cinematen-tagline {
+  text-align: center; /* Center-align tagline */
+  margin-top: 0px;
+  font-size: 23px; /* Adjust font size */
+}
+
+/* Mobile devices */
+@media (max-width: 480px) {
+  .partner-text {
+    font-size: 15px;
+    gap: 8px; /* Adjust spacing for smaller screens */
+  }
+  .partner-logo {
+    width: 30px; /* Adjust logo size for mobile */
+  }
+  .cinematen-logo-text {
+    font-size: 35px;
+  }
+  .cinematen-tagline {
+    font-size: 18px;
+  }
+  .partner-logo {
+    width: 30px;
+    height: auto;
+    margin: 0px;
   }
 }
