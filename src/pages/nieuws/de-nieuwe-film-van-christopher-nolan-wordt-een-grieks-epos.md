@@ -26,5 +26,5 @@ Hathaway en Charlize Theron spelen allemaal mee.
 Het enthousiasme rondom deze film is begrijpelijk. Nolan maakt films die vaak
 bijzonder en uitdagend zijn. Het verhaal van Odysseus heeft ook veel diepgang en
 avonturen, wat het perfect maakt voor een film van deze meester regisseur. We
-zijn heel benieuNolhoe dit verhaal uiteindelijk vertaald zal worden naar het
+zijn heel benieuwd hoe dit verhaal uiteindelijk vertaald zal worden naar het
 witte doek.
