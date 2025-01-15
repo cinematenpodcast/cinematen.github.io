@@ -1,6 +1,6 @@
 ---
 layout: ../../layouts/NieuwsLayout.astro
-title: Hier is de trailer voor Daredevil: Born Again
+title: Hier is de trailer voor Daredevil Born Again
 date: 2025-01-15T16:19:43.582+01:00
 soort: 'tv'
 thumbnail: 'https://www.slashfilm.com/img/gallery/daredevil-born-again-trailer-resurrects-marvels-bloodiest-superhero-show-for-another-round-needs-new-header/l-intro-1736944011.jpg
