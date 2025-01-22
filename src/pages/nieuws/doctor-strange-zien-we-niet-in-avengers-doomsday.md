@@ -1,6 +1,6 @@
 ---
 layout: ../../layouts/NieuwsLayout.astro
-title: Doctor Strange zien we niet in Avengers: Doomsday
+title: Doctor Strange zien we niet in Avengers Doomsday
 date: 2025-01-22T18:58:05.050+01:00
 soort: 'film'
 thumbnail: 'https://www.slashfilm.com/img/gallery/one-marvel-hero-wont-return-for-avengers-doomsday-but-theyll-be-back-in-secret-wars/l-intro-1737565126.jpg
