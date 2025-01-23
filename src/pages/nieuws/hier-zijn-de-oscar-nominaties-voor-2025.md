@@ -19,7 +19,7 @@ Hieronder volgt de volledige lijst van nominaties, als je ze nog niet allemaal
 hebt gezien kan je maar beter snel beginnen want de winnaars worden
 bekendgemaakt tijdens de Oscaruitreiking op zondagnacht 2 maart.
 
-## Beste Film
+### Beste Film
 - Anora
 - The Brutalist
 - A Complete Unknown
@@ -31,105 +31,105 @@ bekendgemaakt tijdens de Oscaruitreiking op zondagnacht 2 maart.
 - The Substance
 - Wicked
 
-## Beste Acteur
+### Beste Acteur
 - Adrien Brody - The Brutalist
 - Timothée Chalamet - A Complete Unknown
 - Colman Domingo - Sing Sing
 - Ralph Fiennes - Conclave
 - Sebastian Stan - The Apprentice
 
-## Beste Actrice
+### Beste Actrice
 - Cynthia Erivo - Wicked
 - Karla Sofía Gascón - Emilia Pérez
 - Mikey Madison - Anora
 - Demi Moore - The Substance
 - Fernanda Torres - I'm Still Here
 
-## Beste Regisseur
+### Beste Regisseur
 - Sean Baker - Anora
 - Brady Corbet - The Brutalist
 - James Mangold - A Complete Unknown
 - Jacques Audiard - Emilia Pérez
 - Coralie Fargeat - The Substance
 
-## Beste Visuele Effecten
+### Beste Visuele Effecten
 - Alien: Romulus
 - Better Man
 - The Wild Robot
 - Kingdom of the Planet of the Apes
 - Wicked
 
-## Beste Buitenlandse Film
+### Beste Buitenlandse Film
 - I'm Still Here
 - The Girl with the Needle
 - Emilia Pérez
 - The Seed of the Sacred Fig
 - Flow
 
-## Beste Animatiefilm
+### Beste Animatiefilm
 - Flow
 - Inside Out 2
 - Memoir of a Snail
 - The Wild Robot
 - Wallace & Gromit: Vengeance Most Fowl
 
-## Beste Cinematografie
+### Beste Cinematografie
 - The Brutalist
 - Dune: Part Two
 - Emilia Pérez
 - Maria
 - Nosferatu
 
-## Beste Muzieknummer
+### Beste Muzieknummer
 - El Mal - Emilia Pérez
 - The Journey - The Six Triple Eight
 - Like a Bird - Sing Sing
 - Mi Camino - Flow
 - Never Too Late - Elton John: Never Too Late
 
-## Beste Muziek
+### Beste Muziek
 - The Brutalist
 - Conclave
 - Emilia Pérez
 - Wicked
 - The Wild Robot
 
-## Beste Make-up en Haarstyling
+### Beste Make-up en Haarstyling
 - A Different Man
 - Emilia Pérez
 - Nosferatu
 - The Substance
 - Wicked
 
-## Beste Vrouwelijke Bijrol
+### Beste Vrouwelijke Bijrol
 - Monica Barbaro - A Complete Unknown
 - Ariana Grande - Wicked
 - Felicity Jones - The Brutalist
 - Isabella Rossellini - Conclave
 - Zoe Saldana - Emilia Pérez
 
-## Beste Mannelijke Bijrol
+### Beste Mannelijke Bijrol
 - Yura Borisov - Anora
 - Kieran Culkin - A Real Pain
 - Edward Norton - A Complete Unknown
 - Guy Pearce - The Brutalist
 - Jeremy Strong - The Apprentice
 
-## Beste Filmbewerking
+### Beste Filmbewerking
 - Anora
 - The Brutalist
 - Conclave
 - Emilia Pérez
 - Wicked
 
-## Beste Documentaire
+### Beste Documentaire
 - Black Box Diaries
 - No Other Land
 - Porcelain War
 - Soundtrack to a Coup d'Etat
 - Sugarcane
 
-## Beste Korte Film
+### Beste Korte Film
 - A Lien
 - Anuja
 - Ik ben geen robot
