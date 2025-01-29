@@ -1,12 +1,12 @@
 ---
 layout: ../../layouts/NieuwsLayout.astro
-title: Supergirl: Woman of Tomorrow
+title: Supergirl Woman of Tomorrow is vertrokken
 date: 2025-01-28T19:26:52.227+01:00
 soort: 'Film'
 thumbnail: 'https://deadline.com/wp-content/uploads/2025/01/supergirl-james-gunn.jpg
 '
 trailer: ""
-slug: 'supergirl-woman-of-tomorrow'
+slug: 'supergirl-woman-of-tomorrow-is-vertrokken'
 tags: ["Film"]
 ---
 
