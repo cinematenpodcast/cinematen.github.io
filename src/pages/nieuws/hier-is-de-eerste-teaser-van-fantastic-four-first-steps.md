@@ -3,9 +3,8 @@ layout: ../../layouts/NieuwsLayout.astro
 title: Hier is de eerste teaser van Fantastic Four First Steps
 date: 2025-02-05T22:22:56.187+01:00
 soort: 'Film'
-thumbnail: '
-'
-trailer: ""
+thumbnail: 'https://gizmodo.com/app/uploads/2025/02/fantastic-four-first-steps-trailer.jpg'
+trailer: "AzMo-FgRp64"
 slug: 'hier-is-de-eerste-teaser-van-fantastic-four-first-steps'
 tags: ["Film"]
 ---
