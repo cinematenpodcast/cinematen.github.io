@@ -43,5 +43,4 @@ beetje liet zien van zijn humor dat hij toevoegt aan het personage.
 
 Aan het einde van de trailer zien we de Fantastic Four in hun iconische blauwe
 pakken, met een duidelijke retro-vibe die de jaren '60 onderstreept. We zijn nu
-al benieuwd! De film komt op 25 juli uit, maar je kan de trailer zelf bewonderen
-op Cinematen.be!
+al benieuwd! De film komt op 25 juli uit in de zalen!
