@@ -6,7 +6,7 @@ soort: 'Film'
 thumbnail: 'https://www.usatoday.com/gcdn/authoring/authoring-images/2025/02/08/USAT/78351433007-20241213-t-072240-z-1406476351-rc-23-obalyuzb-rtrmadp-3-awardssagcelebration.JPG
 '
 trailer: ""
-slug: 'heeft-karla-sofa-gascn-er-voor-gezorgd-dat-ze-straks-geen-oscarbeeldjes-wint'
+slug: 'heeft-karla-sofa-gascon-er-voor-gezorgd-dat-ze-straks-geen-oscarbeeldjes-wint'
 tags: ["Film"]
 ---
 
@@ -24,6 +24,12 @@ De tweets die Gascón hebben in verlegenheid gebracht, bevatten opmerkingen over
 verschillende onderwerpen, waaronder de dood van George Floyd en haar mening
 over de islam. Enkele van de racistische en beledigende tweets die haar
 reputatie aantastten, zijn:
+
+"Islam is geweldig, zonder enige machismo. Vrouwen worden gerespecteerd, maar alleen als ze zich aan bepaalde regels houden. Dit is diep kwetsend voor de mensheid."
+
+"Ik heb het gevoel dat er in Spanje steeds meer moslims zijn. Elke keer als ik mijn dochter van school haal, zie ik meer vrouwen met bedekte haren."
+
+"George Floyd was een drugverslaafde oplichter, en zijn dood heeft alleen maar laten zien dat mensen zwarte mensen als apen beschouwen."
 
 In de wereld van film en entertainment hebben zulke controverses vaak invloed op
 hoe een acteur wordt gezien. Terwijl Gascón zich richt op haar rol in "Emilia
