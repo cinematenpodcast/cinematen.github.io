@@ -83,23 +83,22 @@ console.log("Rating:", frontmatter.rating); // Add this line to check the value 
             >
                 <div class="container">
                     <a
-                        href="#"
-                        target="_blank"
-                        class="terug-knop w-inline-block"
-                    >
-                        <div class="terug-div">
-                            <img
-                                src="https://assets-global.website-files.com/6613d9d7c23cff2286422b25/66145e1f24aa75e6e8efe154_pijl.svg"
-                                loading="lazy"
-                                width="10"
-                                alt=""
-                                class="image-4"
-                            />
-                            <div onclick="goBack()" class="terugknop-text">
-                                Terug
-                            </div>
-                        </div>
-                    </a>
+    href="javascript:history.back();"
+    class="terug-knop w-inline-block"
+>
+    <div class="terug-div">
+        <img
+            src="https://assets-global.website-files.com/6613d9d7c23cff2286422b25/66145e1f24aa75e6e8efe154_pijl.svg"
+            loading="lazy"
+            width="10"
+            alt=""
+            class="image-4"
+        />
+        <div class="terugknop-text">
+            Terug
+        </div>
+    </div>
+</a>
                     <div class="content-left">
                         <div class="blog-post-container w-clearfix">
                             <img
