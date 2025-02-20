@@ -36,7 +36,7 @@ heel veel nieuwe titels aankondigde en later pas de details uitwerkte. Hun focus
 lijkt nu te liggen op het verbeteren van de kwaliteit van hun content.
 
 In de toekomst kan Marvel terugkomen op deze projecten, maar op dit moment gaat
-de aandacht uit naar andere series, zoals "Daredevil: Born Again", die volgende
-week uitkomt op Disney+. De veranderingen bij Marvel laten zien dat zij nadenken
+de aandacht uit naar andere series, zoals "Daredevil: Born Again", dat binnenkort uitkomt op Disney+. 
+De veranderingen bij Marvel laten zien dat zij nadenken
 over hun aanpak en terug zeker willen zijn van de kwaliteit van hetgeen ze
 aanbieden aan hun kijkers.
