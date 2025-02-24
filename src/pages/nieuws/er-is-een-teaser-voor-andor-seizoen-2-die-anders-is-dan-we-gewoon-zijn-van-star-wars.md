@@ -1,7 +1,6 @@
 ---
 layout: ../../layouts/NieuwsLayout.astro
-title: Er is een teaser voor Andor seizoen 2 die anders is dan we gewoon zijn van Star
-Wars
+title: Er is een teaser voor Andor seizoen 2 die anders is dan we gewoon zijn van Star Wars
 date: 2025-02-24T19:25:06.246+01:00
 soort: 'tv'
 thumbnail: 'https://www.slashfilm.com/img/gallery/first-andor-season-2-trailer-brings-the-revolution-back-to-star-wars/l-intro-1740417675.jpg
