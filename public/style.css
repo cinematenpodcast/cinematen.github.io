@@ -2640,10 +2640,12 @@ figcaption {
   justify-content: center;
   align-items: center;
   display: flex;
-  animation: slide-in-left 1s ease 0ms 1 normal forwards;
+  /* animation: slide-in-left 1s ease 0ms 1 normal forwards; */
 }
 
-@keyframes slide-in-left {
+/* Commented out slide-in-left animation */
+
+/* @keyframes slide-in-left {
   0% {
     opacity: 0;
     transform: translateX(-50px);
@@ -2653,7 +2655,7 @@ figcaption {
     opacity: 1;
     transform: translateX(0);
   }
-}
+} */
 
 .text-color-white {
   color: var(--white);

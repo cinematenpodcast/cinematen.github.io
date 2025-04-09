@@ -118,6 +118,9 @@
         margin: 0;
         padding: 0;
         gap: 1rem;
+        max-height: 100vh;
+        overflow-y: auto;
+        background: transparent !important;
     }
 
     .nav-links a {
@@ -138,7 +141,6 @@
         }
 
         .nav-links {
-            display: block;
             position: absolute;
             top: 100%;
             left: 0;
@@ -178,42 +180,50 @@
         }
 
         /* Hide logo when menu is active */
-        .nav-links.active ~ :global(.image-3) {
+        .nav-links.active ~ :global(.header_content) {
             opacity: 0;
         }
+
+        .nav-links.active ~ .nav-content,
+        .nav-links.active ~ .partner-text,
+        .nav-links.active ~ .partner-logo,
+        .nav-links.active ~ .cinematen-logo,
+        .nav-links.active ~ .cinematen-tagline {
+            opacity: 0 !important;
+            transition: opacity 0.1s ease;
+        }
+    }
+
+    .header_content {
+        opacity: 1 !important;
+        transition: opacity 0.3s ease, transform 0.3s ease;
+        transform: translateX(0) !important;
+    }
+
+    .nav-links.active ~ .header_content {
+        opacity: 0 !important;
+        transform: translateX(100%) !important;
     }
 </style>
 
 <script>
-    document.addEventListener('DOMContentLoaded', () => {
+    document.addEventListener('DOMContentLoaded', function() {
         const menuToggle = document.getElementById('menu-toggle');
         const navLinks = document.getElementById('nav-links');
-        const logo = document.querySelector('.image-3') as HTMLElement;
+        const headerContent = document.querySelector('.header_content') as HTMLElement;
 
-        if (menuToggle && navLinks) {
-            menuToggle.addEventListener('click', () => {
-                menuToggle.classList.toggle('active');
-                navLinks.classList.toggle('active');
-                
-                // Toggle logo visibility
-                if (logo) {
-                    logo.style.opacity = navLinks.classList.contains('active') ? '0' : '1';
+        menuToggle.addEventListener('click', function() {
+            menuToggle.classList.toggle('active');
+            navLinks.classList.toggle('active');
+            if (headerContent) {
+                if (navLinks.classList.contains('active')) {
+                    headerContent.style.opacity = '0';
+                    headerContent.style.transform = 'translateX(100%)';
+                } else {
+                    headerContent.style.opacity = '1';
+                    headerContent.style.transform = 'translateX(0)';
                 }
-            });
-
-            // Close menu when clicking outside
-            document.addEventListener('click', (e) => {
-                const target = e.target as HTMLElement;
-                if (!menuToggle.contains(target) && !navLinks.contains(target)) {
-                    menuToggle.classList.remove('active');
-                    navLinks.classList.remove('active');
-                    
-                    // Show logo when menu closes
-                    if (logo) {
-                        logo.style.opacity = '1';
-                    }
-                }
-            });
-        }
+            }
+        });
     });
 </script> 
