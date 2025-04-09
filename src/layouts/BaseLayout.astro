@@ -3,13 +3,12 @@ import BaseHead from "../components/BaseHead.astro";
 import BaseHeader from "../components/BaseHeader.astro";
 import BaseScript from "../components/BaseScript.astro";
 import BaseFooter from "../components/BaseFooter.astro";
-import BaseNavmenu from "../components/BaseNavmenu.astro";
+import NewNavmenu from "../components/NewNavmenu.astro";
 import BasePodcastBanner from "../components/BasePodcastBanner.astro";
 import CategoriesNieuws from "../components/CategoriesNieuws.astro";
 import CategoriesReviews from "../components/CategoriesReviews.astro";
 import BaseNieuwsItem from "../components/BaseNieuwsItem.astro";
 import BasePodcastBlock from "../components/BasePodcastBlock.astro";
-import BasePodcastBanner from "../components/BasePodcastBanner.astro";
 import BaseFeaturedItem from "../components/BaseFeaturedItem.astro";
 import BaseReviewItem from "../components/BaseReviewItem.astro";
 import BaseAbout from "../components/BaseAbout.astro";
@@ -51,7 +50,7 @@ const allRnbPosts = await Astro.glob('../pages/reviews&blogs/*.mdx');
     </head>
     <body class="body">
         <div class="page-wrapper">
-            <BaseNavmenu />
+            <NewNavmenu />
             <BaseHeader />
             <main class="content">
                 <section class="nieuws-section">
@@ -181,7 +180,7 @@ const allRnbPosts = await Astro.glob('../pages/reviews&blogs/*.mdx');
             <BaseAbout id="over-ons"/>
             <BaseContact />
             <BaseFooter />
-            <BaseScript />
         </div>
+        <BaseScript />
     </body>
 </html>
