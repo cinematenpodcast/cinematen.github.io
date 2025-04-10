@@ -197,7 +197,6 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
-
 td,
 th {
   padding: 0;
@@ -2630,7 +2629,8 @@ figcaption {
   background-repeat: repeat;
   background-size: auto;
   margin-top: -6rem;
-  padding-top: 1rem;
+  padding-top: 3rem; /* Increased from 2rem */
+  padding-bottom: 1rem; /* Added padding */
   box-shadow: 0 17px 20px 5px rgba(0, 0, 0, .19);
 }
 
@@ -3470,6 +3470,8 @@ margin-top: 10px;
   text-decoration: none;
   transition: transform .2s cubic-bezier(.455, .03, .515, .955);
   animation: heartbeat 2s ease 2s 1 normal forwards;
+  display: flex; /* Make the link a flex container */
+  align-items: center; /* Vertically align items in the center */
 }
 
 @keyframes heartbeat {
@@ -3785,8 +3787,8 @@ margin-top: 10px;
   }
 
   .section-header.background-color-gradient1 {
-    padding-top: 6rem;
-    padding-bottom: 2rem;
+    padding-top: 8rem; /* Increased from 7rem */
+    padding-bottom: 3rem; /* Increased from 2rem */
   }
 
   .image_blending-effect {
@@ -3976,6 +3978,14 @@ margin-top: 10px;
 
   img {
     width: 30%;
+  }
+  
+  .navigation-link {
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    margin-bottom: 5px;
   }
 
   .button {
@@ -4288,7 +4298,16 @@ margin-top: 10px;
 
 @media screen and (max-width: 479px) {
   h2 {
-    font-size: 20px;
+    font-size: 1.5rem;
+  }
+  
+  .navigation-link {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    margin-bottom: 3px;
+    font-size: 15px;
   }
 
   .heading-medium.text-color-white {
@@ -4341,8 +4360,8 @@ margin-top: 10px;
   }
 
   .section-header.background-color-gradient1 {
-    padding-top: 1rem;
-    padding-bottom: 0;
+    padding-top: 3rem; /* Increased from 2rem */
+    padding-bottom: 1rem; /* Increased from 0 */
   }
 
   .header_content {
@@ -4595,6 +4614,10 @@ margin-top: 10px;
 
   .nieuws-list {
     grid-row-gap: 20px;
+  }
+
+  .image-3 {
+    display: none;
   }
 }
 
@@ -4918,3 +4941,40 @@ a {
     margin: 0px;
   }
 }
+
+.nav-logo {
+  height: 20px; /* Adjust height as needed */
+  width: auto; /* Maintain aspect ratio */
+  margin-right: 8px; /* Add some space between logo and text */
+  vertical-align: middle; /* Align logo vertically with text */
+}
+
+@media screen and (max-width: 767px) {
+  /* ... existing styles ... */
+  
+  .navigation-link {
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    margin-bottom: 5px;
+  }
+  
+  /* ... existing styles ... */
+}
+
+@media screen and (max-width: 479px) {
+  /* ... existing styles ... */
+  
+  .navigation-link {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    margin-bottom: 3px;
+    font-size: 15px;
+  }
+  
+  /* ... existing styles ... */
+}
+
