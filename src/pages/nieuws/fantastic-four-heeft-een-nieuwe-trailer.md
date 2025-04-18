@@ -5,7 +5,7 @@ date: 2025-04-18T12:00:53.984+02:00
 soort: 'Film'
 thumbnail: 'https://www.slashfilm.com/img/gallery/fantastic-four-first-steps-trailer-finally-shows-off-reed-richards-superpowers/l-intro-1744910499.jpg
 '
-trailer: ""
+trailer: "pAsmrKyMqaA"
 slug: 'fantastic-four-heeft-een-nieuwe-trailer'
 tags: ["Film"]
 ---
