@@ -118,8 +118,6 @@
         margin: 0;
         padding: 0;
         gap: 1rem;
-        max-height: 100vh;
-        overflow-y: auto;
         background: transparent !important;
     }
 
@@ -150,6 +148,8 @@
             padding-right: 1rem;
             padding-bottom: 1rem;
             padding-left: 1rem;
+            max-height: calc(100vh - 80px);
+            overflow-y: auto;
 
             gap: 0.5rem;
             opacity: 0;
