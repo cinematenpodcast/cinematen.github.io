@@ -3,7 +3,7 @@ layout: ../../layouts/NieuwsLayout.astro
 title: 'Uitdagingen voor de nieuwe showrunner Albert Kim aan het roer van Netflix "Avatar: The Last Airbender"'
 date: 2023-12-20
 soort: 'TV'
-thumbnail: 'public/images/article-images/intro-1703023950.jpg'
+thumbnail: '/images/article-images/intro-1703023950.jpg'
 trailer: "waJKJW_XU90"
 slug: 'Uitdagingen-voor-de-nieuwe-showrunner-Albert-Kim-aan-het-roer-van-Netflix-Avatar-The-Last-Airbender'
 draft: false
