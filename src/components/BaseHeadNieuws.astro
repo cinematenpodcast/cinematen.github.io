@@ -1,5 +1,7 @@
 ---
-const { title, thumbnail, content } = Astro.props;
+const { title, thumbnail, content, canonicalURL } = Astro.props;
+const defaultCanonical = "https://cinematen.be/";
+const finalCanonical = canonicalURL || defaultCanonical;
 ---
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-KZ3KYRB0T1"></script>
@@ -66,6 +68,10 @@ const { title, thumbnail, content } = Astro.props;
 <script src="/script.js" defer></script>
 <link href="/images/favicon.ico" rel="shortcut icon" type="image/x-icon" />
 <link href="/images/webclip.png" rel="apple-touch-icon" />
+
+<!-- Canonical URL -->
+<link rel="canonical" href={finalCanonical} />
+
 <style>
     * {
         -webkit-font-smoothing: antialiased;

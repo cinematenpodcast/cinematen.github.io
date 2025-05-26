@@ -7,6 +7,9 @@ import BaseScript from "../components/BaseScript.astro";
 import BasePodcastBanner from "../components/BasePodcastBanner.astro";
 const { frontmatter } = Astro.props;
 
+// Generate canonical URL for this news article
+const canonicalURL = `https://cinematen.be${Astro.url.pathname}`;
+
 // Function to format the date and adjust for timezone
 function formatDate(dateString) {
     const date = new Date(dateString);
@@ -31,14 +34,7 @@ function formatDate(dateString) {
 // Format the date
 const formattedDateTime = formatDate(frontmatter.date);
 
-export async function getStaticPaths() {
-  const posts = await getCollection("blog");
-  return posts.map((post) => ({
-    params: { slug: createSlug(post.data.title) },
-    props: post,
-  }));
-}
-type Props = CollectionEntry<"blog">;
+
 
 ---
 
@@ -48,6 +44,8 @@ type Props = CollectionEntry<"blog">;
       <BaseHeadNieuws
           title={frontmatter.title}
           thumbnail={frontmatter.thumbnail}
+          content={frontmatter.summary}
+          canonicalURL={canonicalURL}
         />
       
     </head>

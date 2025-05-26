@@ -1,5 +1,7 @@
 ---
-
+const { canonicalURL } = Astro.props;
+const defaultCanonical = "https://cinematen.be/";
+const finalCanonical = canonicalURL || defaultCanonical;
 ---
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-KZ3KYRB0T1"></script>
@@ -74,7 +76,7 @@
 </style>
 
 <!-- Canonical URL -->
-<link rel="canonical" href="https://cinematen.be/" />
+<link rel="canonical" href={finalCanonical} />
 
 <!-- Preload Critical Resources -->
 <link rel="preload" href="/style.css" as="style" />
