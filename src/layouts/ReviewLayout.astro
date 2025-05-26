@@ -124,14 +124,14 @@ console.log("Rating:", frontmatter.rating); // Add this line to check the value 
                                     class="review-title"
                                 >
                                     <div class="review-header-bottom">
-                                        <h2 class="heading-h2 review-topic">
+                                        <h3 class="heading-h2 review-topic">
                                             {frontmatter.soort} door {
                                                 frontmatter.schrijver
                                             }
-                                        </h2>
-                                        <h2 class="heading-h2 review-title">
+                                        </h3>
+                                        <h1 class="heading-h2 review-title">
                                             {frontmatter.title}
-                                        </h2>
+                                        </h1>
                                         {frontmatter.rating && frontmatter.rating > 0 && (
                                         <div class="rating-blue">
                                             {starRatingImages.map(starImage => (
