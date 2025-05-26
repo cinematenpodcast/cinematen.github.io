@@ -1,5 +1,5 @@
 ---
-const { canonicalURL, title, description } = Astro.props;
+const { canonicalURL, title, description, publishedDate, modifiedDate, articleType, author, image } = Astro.props;
 const defaultCanonical = "https://cinematen.be/";
 const finalCanonical = canonicalURL || defaultCanonical;
 
@@ -9,6 +9,16 @@ const defaultDescription = "Cinematen.be houdt je vinger aan de pols met het mee
 
 const finalTitle = title || defaultTitle;
 const finalDescription = description || defaultDescription;
+
+// Format dates for meta tags (ISO 8601 format)
+const formatDateForMeta = (dateString) => {
+    if (!dateString) return null;
+    const date = new Date(dateString);
+    return isNaN(date.getTime()) ? null : date.toISOString();
+};
+
+const formattedPublishedDate = formatDateForMeta(publishedDate);
+const formattedModifiedDate = formatDateForMeta(modifiedDate);
 ---
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-KZ3KYRB0T1"></script>
@@ -38,7 +48,10 @@ const finalDescription = description || defaultDescription;
     property="twitter:description"
 />
 <meta content="/images/Cinematelogotrans.png" property="twitter:image" />
-<meta content="website" property="og:type" />
+<meta content={articleType || "website"} property="og:type" />
+{formattedPublishedDate && <meta content={formattedPublishedDate} property="article:published_time" />}
+{formattedModifiedDate && <meta content={formattedModifiedDate} property="article:modified_time" />}
+{author && <meta content={author} property="article:author" />}
 <meta content="summary_large_image" name="twitter:card" />
 <meta content="width=device-width, initial-scale=1" name="viewport" />
 <meta content={finalTitle} />
@@ -128,8 +141,28 @@ const finalDescription = description || defaultDescription;
 <link href="/images/webclip.png" rel="apple-touch-icon" />
 
 <!-- Structured Data -->
-<script type="application/ld+json">
-{
+{articleType === "article" ? (
+<script type="application/ld+json" set:html={JSON.stringify({
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": finalTitle,
+  "description": finalDescription,
+  "url": finalCanonical,
+  ...(formattedPublishedDate && { "datePublished": formattedPublishedDate }),
+  ...(formattedModifiedDate && { "dateModified": formattedModifiedDate }),
+  ...(author && { "author": { "@type": "Person", "name": author } }),
+  ...(image && { "image": image }),
+  "publisher": {
+    "@type": "Organization",
+    "name": "Cinematen",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://cinematen.be/images/Cinematelogotrans.png"
+    }
+  }
+})}></script>
+) : (
+<script type="application/ld+json" set:html={JSON.stringify({
   "@context": "https://schema.org",
   "@type": "WebSite",
   "name": "Cinematen.be",
@@ -143,8 +176,8 @@ const finalDescription = description || defaultDescription;
       "url": "https://cinematen.be/images/Cinematelogotrans.png"
     }
   }
-}
-</script>
+})}></script>
+)}
 
 <!-- Performance Optimization -->
 <style>

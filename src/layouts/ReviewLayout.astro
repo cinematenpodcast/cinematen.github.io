@@ -78,7 +78,16 @@ console.log("Rating:", frontmatter.rating); // Add this line to check the value 
 
 <html lang="nl">
     <head>
-        <BaseHead canonicalURL={canonicalURL} title={reviewTitle} description={reviewDescription} />
+        <BaseHead 
+            canonicalURL={canonicalURL} 
+            title={reviewTitle} 
+            description={reviewDescription}
+            publishedDate={frontmatter.date}
+            modifiedDate={frontmatter.date}
+            articleType="article"
+            author={frontmatter.schrijver}
+            image={frontmatter.poster}
+        />
     </head>
     <body class="body">
         <div class="page-wrapper">

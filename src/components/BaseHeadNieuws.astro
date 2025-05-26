@@ -1,11 +1,21 @@
 ---
-const { title, thumbnail, content, canonicalURL } = Astro.props;
+const { title, thumbnail, content, canonicalURL, publishedDate, modifiedDate, author } = Astro.props;
 const defaultCanonical = "https://cinematen.be/";
 const finalCanonical = canonicalURL || defaultCanonical;
 
 // Generate a fallback description if content is missing
 const defaultDescription = "Lees het laatste nieuws uit de film- en seriewereld op Cinematen.be";
 const finalDescription = content || defaultDescription;
+
+// Format dates for meta tags (ISO 8601 format)
+const formatDateForMeta = (dateString) => {
+    if (!dateString) return null;
+    const date = new Date(dateString);
+    return isNaN(date.getTime()) ? null : date.toISOString();
+};
+
+const formattedPublishedDate = formatDateForMeta(publishedDate);
+const formattedModifiedDate = formatDateForMeta(modifiedDate);
 ---
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-KZ3KYRB0T1"></script>
@@ -35,8 +45,11 @@ const finalDescription = content || defaultDescription;
     property="twitter:description"
 />
 <meta content={thumbnail} property="twitter:image" />
-<meta content="website" property="og:type" />
-<meta content={thumbnail} name="twitter:card" />
+<meta content="article" property="og:type" />
+{formattedPublishedDate && <meta content={formattedPublishedDate} property="article:published_time" />}
+{formattedModifiedDate && <meta content={formattedModifiedDate} property="article:modified_time" />}
+{author && <meta content={author} property="article:author" />}
+<meta content="summary_large_image" name="twitter:card" />
 <meta content="width=device-width, initial-scale=1" name="viewport" />
 <meta content={title} />
 <link href="/style.css" rel="stylesheet" type="text/css" />
@@ -75,6 +88,27 @@ const finalDescription = content || defaultDescription;
 
 <!-- Canonical URL -->
 <link rel="canonical" href={finalCanonical} />
+
+<!-- Structured Data for News Article -->
+<script type="application/ld+json" set:html={JSON.stringify({
+  "@context": "https://schema.org",
+  "@type": "NewsArticle",
+  "headline": title,
+  "description": finalDescription,
+  "url": finalCanonical,
+  ...(formattedPublishedDate && { "datePublished": formattedPublishedDate }),
+  ...(formattedModifiedDate && { "dateModified": formattedModifiedDate }),
+  ...(author && { "author": { "@type": "Person", "name": author } }),
+  ...(thumbnail && { "image": thumbnail }),
+  "publisher": {
+    "@type": "Organization",
+    "name": "Cinematen",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://cinematen.be/images/Cinematelogotrans.png"
+    }
+  }
+})}></script>
 
 <style>
     * {
