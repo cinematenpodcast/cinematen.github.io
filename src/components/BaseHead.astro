@@ -1,7 +1,14 @@
 ---
-const { canonicalURL } = Astro.props;
+const { canonicalURL, title, description } = Astro.props;
 const defaultCanonical = "https://cinematen.be/";
 const finalCanonical = canonicalURL || defaultCanonical;
+
+// Default title and description for homepage
+const defaultTitle = "Film & TV Reviews en Nieuws";
+const defaultDescription = "Cinematen.be houdt je vinger aan de pols met het meest actuele nieuws uit de film- en seriewereld, inclusief de laatste ontwikkelingen uit Hollywood. Ontdek previews, trailers, recensies en exclusieve interviews. Blijf op de hoogte van alles wat actueel is op het grote en kleine scherm.";
+
+const finalTitle = title || defaultTitle;
+const finalDescription = description || defaultDescription;
 ---
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-KZ3KYRB0T1"></script>
@@ -14,27 +21,27 @@ const finalCanonical = canonicalURL || defaultCanonical;
 </script>
 <meta name="google-site-verification" content="Ue-nOWKl8b37dpA_44eTIqresdKx1GF8BO1BEfSXwg4" />
 <meta charset="utf-8" />
-<title>Cinematen.be | Film & TV Reviews en Nieuws</title>
+<title>{finalTitle}</title>
 <meta
-    content="Cinematen.be houdt je vinger aan de pols met het meest actuele nieuws uit de film- en seriewereld, inclusief de laatste ontwikkelingen uit Hollywood. Ontdek previews, trailers, recensies en exclusieve interviews. Blijf op de hoogte van alles wat actueel is op het grote en kleine scherm."
+    content={finalDescription}
     name="description"
 />
-<meta content="Cinematen.be" property="og:title" />
+<meta content={finalTitle} property="og:title" />
 <meta
-    content="Cinematen.be houdt je vinger aan de pols met het meest actuele nieuws uit de film- en seriewereld, inclusief de laatste ontwikkelingen uit Hollywood. Ontdek previews, trailers, recensies en exclusieve interviews. Blijf op de hoogte van alles wat actueel is op het grote en kleine scherm."
+    content={finalDescription}
     property="og:description"
 />
 <meta content="./images/Cinematelogotrans.png" property="og:image" />
-<meta content="Cinematen.be" property="twitter:title" />
+<meta content={finalTitle} property="twitter:title" />
 <meta
-    content="Cinematen.be houdt je vinger aan de pols met het meest actuele nieuws uit de film- en seriewereld, inclusief de laatste ontwikkelingen uit Hollywood. Ontdek previews, trailers, recensies en exclusieve interviews. Blijf op de hoogte van alles wat actueel is op het grote en kleine scherm."
+    content={finalDescription}
     property="twitter:description"
 />
 <meta content="/images/Cinematelogotrans.png" property="twitter:image" />
 <meta content="website" property="og:type" />
 <meta content="summary_large_image" name="twitter:card" />
 <meta content="width=device-width, initial-scale=1" name="viewport" />
-<meta content="Cinematen.be" />
+<meta content={finalTitle} />
 <link href="/style.css" rel="stylesheet" type="text/css" />
 <link href="https://fonts.googleapis.com" rel="preconnect" />
 <link

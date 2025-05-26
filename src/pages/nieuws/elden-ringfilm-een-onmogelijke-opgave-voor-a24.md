@@ -7,6 +7,7 @@ thumbnail: '/images/article-images/l-intro-1747959694.jpg'
 trailer: ""
 slug: 'elden-ringfilm-een-onmogelijke-opgave-voor-a24'
 tags: ["Film"]
+summary: "A24 en FromSoftware werken samen aan een live-action Elden Ring film met Alex Garland als regisseur. Maar kan de complexe gamewereld succesvol vertaald worden naar film?"
 ---
 
 Er komt een live-action film van Elden Ring, zo bevestigen Bandai Namco en

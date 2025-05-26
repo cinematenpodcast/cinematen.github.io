@@ -18,11 +18,14 @@ const allNieuwsPosts = await Astro.glob('../pages/nieuws/*.md');
 
 const allRnbPosts = await Astro.glob('../pages/reviews&blogs/*.mdx');
 
+// Generate canonical URL for homepage
+const canonicalURL = `https://cinematen.be${Astro.url.pathname}`;
+
 ---
 
 <html lang="nl">
     <head>
-        <BaseHead/>
+        <BaseHead canonicalURL={canonicalURL} />
         <style>
             .next-button {
                 display: inline-block;

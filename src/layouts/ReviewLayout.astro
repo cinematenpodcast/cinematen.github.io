@@ -12,6 +12,10 @@ const { frontmatter } = Astro.props;
 // Generate canonical URL for this review
 const canonicalURL = `https://cinematen.be${Astro.url.pathname}`;
 
+// Generate title and description for this review
+const reviewTitle = `${frontmatter.title} - ${frontmatter.soort || 'Review'}`;
+const reviewDescription = `Lees onze ${frontmatter.soort ? frontmatter.soort.toLowerCase() : ''} review van ${frontmatter.title}. Bekijk onze beoordeling en ontdek of deze ${frontmatter.soort ? frontmatter.soort.toLowerCase() : 'content'} de moeite waard is.`;
+
 // Function to format the date and adjust for timezone
 function formatDate(dateString) {
     const date = new Date(dateString);
@@ -74,7 +78,7 @@ console.log("Rating:", frontmatter.rating); // Add this line to check the value 
 
 <html lang="nl">
     <head>
-        <BaseHead canonicalURL={canonicalURL} />
+        <BaseHead canonicalURL={canonicalURL} title={reviewTitle} description={reviewDescription} />
     </head>
     <body class="body">
         <div class="page-wrapper">

@@ -2,6 +2,10 @@
 const { title, thumbnail, content, canonicalURL } = Astro.props;
 const defaultCanonical = "https://cinematen.be/";
 const finalCanonical = canonicalURL || defaultCanonical;
+
+// Generate a fallback description if content is missing
+const defaultDescription = "Lees het laatste nieuws uit de film- en seriewereld op Cinematen.be";
+const finalDescription = content || defaultDescription;
 ---
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-KZ3KYRB0T1"></script>
@@ -16,18 +20,18 @@ const finalCanonical = canonicalURL || defaultCanonical;
 <meta charset="utf-8" />
 <title>{title}</title>
 <meta
-    content={content}
+    content={finalDescription}
     name="description"
 />
 <meta content={title} property="og:title" />
 <meta
-    content={content}
+    content={finalDescription}
     property="og:description"
 />
 <meta content={thumbnail} property="og:image" />
 <meta content={title} property="twitter:title" />
 <meta
-    content={content}
+    content={finalDescription}
     property="twitter:description"
 />
 <meta content={thumbnail} property="twitter:image" />
