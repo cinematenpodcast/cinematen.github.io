@@ -1,7 +1,7 @@
 ---
 layout: ../../layouts/NieuwsLayout.astro
-title: Mission Impossible - The Final Reckoning en dat monsterbudget van 400 miljoen
-dollar
+title: 'Mission Impossible The Final Reckoning en dat monsterbudget van 400 miljoen
+dollar'
 date: 2025-05-30T18:55:53.390+02:00
 soort: 'Film'
 thumbnail: '/images/article-images/2025-05-30T16-53-34-019Z.jpg'
