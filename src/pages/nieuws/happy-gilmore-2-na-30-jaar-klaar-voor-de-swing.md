@@ -4,7 +4,7 @@ title: Happy Gilmore 2 Na 30 Jaar Klaar Voor de Swing!
 date: 2025-06-01T03:32:49.194+02:00
 soort: 'Film'
 thumbnail: '/images/article-images/l-intro-1748549063.jpg'
-trailer: ""
+trailer: "YKzRPFvky9Y"
 slug: 'happy-gilmore-2-na-30-jaar-klaar-voor-de-swing'
 tags: ["Film"]
 ---
