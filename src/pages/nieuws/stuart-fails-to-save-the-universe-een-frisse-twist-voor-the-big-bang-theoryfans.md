@@ -1,7 +1,6 @@
 ---
 layout: ../../layouts/NieuwsLayout.astro
-title: Stuart Fails to Save the Universe Een frisse twist voor The Big Bang
-Theory-fans
+title: Stuart Fails to Save the Universe Een frisse twist voor The Big Bang Theory-fans
 date: 2025-06-11T12:33:24.287+02:00
 soort: 'TV'
 thumbnail: '/images/article-images/l-intro-1749597963.jpg'
