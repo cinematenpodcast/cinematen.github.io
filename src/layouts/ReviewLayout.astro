@@ -5,6 +5,7 @@ import BaseHeader from "../components/BaseHeader.astro";
 import BaseFooter from "../components/BaseFooter.astro";
 import BaseScript from "../components/BaseScript.astro";
 import BasePodcastBanner from "../components/BasePodcastBanner.astro";
+import RandomReviews from "../components/RandomReviews.astro";
 
 
 const { frontmatter } = Astro.props;
@@ -22,10 +23,8 @@ function formatDate(dateString) {
     if (isNaN(date.getTime())) return ""; // Return empty string if date is invalid
     const options = {
         timeZone: "UTC",
-        hour12: false,
-        hour: "numeric",
-        minute: "numeric",
-    }; // Set the timezone to UTC and format the hour and minute without seconds
+        hour12: false
+    }; // Set the timezone to UTC
     const formattedDate = date.toLocaleDateString("nl-NL", {
         day: "2-digit",
         month: "2-digit",
@@ -177,6 +176,7 @@ console.log("Rating:", frontmatter.rating); // Add this line to check the value 
                         </div>
                     </div>
                 </div>
+                <RandomReviews currentSlug={frontmatter.slug} />
                 <BasePodcastBanner />
                 <BaseFooter />
             </div>
