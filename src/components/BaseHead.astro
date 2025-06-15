@@ -186,3 +186,66 @@ const formattedModifiedDate = formatDateForMeta(modifiedDate);
         -moz-osx-font-smoothing: grayscale;
     }
 </style>
+
+<style>
+    /* Critical CSS voor homepage (boven de vouw) */
+    html, body, .page-wrapper, .content, .nieuws-section, .nieuws-title, .container, .w-layout-grid, .content-left, .content-right, .header_content, .nav-container, .nav-content, .main-nav, .menu-toggle, .nav-links, .next-button {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    }
+    body {
+        font-family: 'Rubik', Arial, sans-serif;
+        background: #181A2A;
+        color: #fff;
+    }
+    .nieuws-title {
+        font-size: 2rem;
+        font-weight: 700;
+        margin-bottom: 1rem;
+    }
+    .container {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 0 1rem;
+    }
+    .w-layout-grid {
+        display: grid;
+        grid-template-columns: 1fr 350px;
+        gap: 2rem;
+    }
+    @media (max-width: 900px) {
+        .w-layout-grid {
+            grid-template-columns: 1fr;
+        }
+        .content-right {
+            margin-top: 2rem;
+        }
+    }
+    .next-button {
+        display: inline-block;
+        padding: 20px 40px;
+        background-color: #2E58AE;
+        color: white;
+        text-decoration: none;
+        border-radius: 16px;
+        margin-top: 24px;
+        transition: background-color 0.3s ease;
+        width: 100%;
+        text-align: center;
+    }
+    .next-button:hover {
+        background-color: #254a94;
+    }
+    .next-button .title-medium {
+        color: white;
+        font-weight: 500;
+        font-size: 20px;
+    }
+    /* EINDE CRITICAL CSS */
+</style>
+<!-- Preload en asynchroon laden van style.css -->
+<link rel="preload" href="/style.css" as="style" onload="this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="/style.css"></noscript>
+<!-- Preload logo -->
+<link rel="preload" as="image" href="/images/LogoCleanSmaller.png" type="image/png" />

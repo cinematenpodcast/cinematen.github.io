@@ -1,7 +1,7 @@
 ---
 import BaseHead from "../components/BaseHead.astro";
 import BaseHeader from "../components/BaseHeader.astro";
-import BaseScript from "../components/BaseScript.astro";
+// import BaseScript from "../components/BaseScript.astro";
 import BaseFooter from "../components/BaseFooter.astro";
 import NewNavmenu from "../components/NewNavmenu.astro";
 import BasePodcastBanner from "../components/BasePodcastBanner.astro";
@@ -184,6 +184,6 @@ const canonicalURL = `https://cinematen.be${Astro.url.pathname}`;
             <BaseContact />
             <BaseFooter />
         </div>
-        <BaseScript />
+        {/* BaseScript verwijderd voor performance op homepage */}
     </body>
 </html>

@@ -213,18 +213,19 @@
     document.addEventListener('DOMContentLoaded', function() {
         const menuToggle = document.getElementById('menu-toggle');
         const navLinks = document.getElementById('nav-links');
-        const headerContent = document.querySelector('.header_content') as HTMLElement;
-
+        const headerContent = document.querySelector('.header_content');
+        if (!menuToggle || !navLinks) return; // Guard: alleen uitvoeren als menu aanwezig is
         menuToggle.addEventListener('click', function() {
             menuToggle.classList.toggle('active');
             navLinks.classList.toggle('active');
             if (headerContent) {
+                const headerEl = headerContent as HTMLElement;
                 if (navLinks.classList.contains('active')) {
-                    headerContent.style.opacity = '0';
-                    headerContent.style.transform = 'translateX(100%)';
+                    headerEl.style.opacity = '0';
+                    headerEl.style.transform = 'translateX(100%)';
                 } else {
-                    headerContent.style.opacity = '1';
-                    headerContent.style.transform = 'translateX(0)';
+                    headerEl.style.opacity = '1';
+                    headerEl.style.transform = 'translateX(0)';
                 }
             }
         });
