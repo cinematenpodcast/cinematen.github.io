@@ -34,6 +34,7 @@ const randomReviews = shuffle(filteredReviews).slice(0, 3);
             title={post.frontmatter.title}
             thumbnail={post.frontmatter.thumbnail || post.frontmatter.poster}
             rating={post.frontmatter.rating}
+            square={true}
           />
         </a>
       ))}

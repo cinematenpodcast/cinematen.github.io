@@ -1,5 +1,5 @@
 ---
-const { title, url, thumbnail, rating } = Astro.props;
+const { title, url, thumbnail, rating, square } = Astro.props;
 
 // Functie om sterren te genereren
 function generateStarRating(rating) {
@@ -25,8 +25,8 @@ const showStars = rating !== undefined && rating !== null && rating > 0;
 const starRatingImages = showStars ? generateStarRating(rating) : [];
 ---
 <div class="featured-item-horizontal">
-  <div class="featured-thumb-wrapper">
-    <div class="thumb-aspect-box">
+  <div class={`featured-thumb-wrapper${square ? ' square' : ''}`}>
+    <div class={`thumb-aspect-box${square ? ' square' : ''}`}>
       <img
         src={thumbnail}
         alt="feature-thumbnail"
@@ -85,6 +85,18 @@ const starRatingImages = showStars ? generateStarRating(rating) : [];
   object-fit: cover;
   display: block;
 }
+/* Vierkante variant */
+.featured-thumb-wrapper.square,
+.thumb-aspect-box.square {
+  width: 100px !important;
+  height: 80px !important;
+  aspect-ratio: 5/4 !important;
+  border-radius: 14px;
+  background: transparent !important;
+}
+.thumb-aspect-box.square {
+  background: #fff;
+}
 .featured-content-box {
   flex: 1 1 0;
   display: flex;
@@ -113,6 +125,10 @@ const starRatingImages = showStars ? generateStarRating(rating) : [];
   margin-right: 2px;
   display: inline-block;
 }
+/* Gap between featured items */
+:global(.featured-block article) {
+  margin-bottom: 18px;
+}
 @media (max-width: 700px) {
   .featured-item-horizontal {
     flex-direction: row !important;
@@ -134,6 +150,12 @@ const starRatingImages = showStars ? generateStarRating(rating) : [];
   }
   .star-row-horizontal {
     justify-content: flex-start;
+  }
+  .featured-thumb-wrapper.square,
+  .thumb-aspect-box.square {
+    width: 80px !important;
+    height: 64px !important;
+    aspect-ratio: 5/4 !important;
   }
 }
 </style>

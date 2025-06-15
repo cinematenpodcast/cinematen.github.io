@@ -62,7 +62,7 @@ const canonicalURL = `https://cinematen.be${Astro.url.pathname}`;
                         <div class="w-layout-grid blog-grid">
                             <div class="content-left">
                                 {allNieuwsPosts
-                                    .sort((a, b) => new Date(b.frontmatter.date) - new Date(a.frontmatter.date))
+                                    .sort((a, b) => new Date(b.frontmatter.date).getTime() - new Date(a.frontmatter.date).getTime())
                                     .slice(0, 5)
                                     .map((post) => (
                                         <article>
@@ -72,7 +72,6 @@ const canonicalURL = `https://cinematen.be${Astro.url.pathname}`;
                                                 title={post.frontmatter.title}
                                                 thumbnail={post.frontmatter.thumbnail}
                                                 date={post.frontmatter.date}
-                                                content={post.rawContent}
                                             />
                                         </article>
                                     ))}
@@ -90,7 +89,7 @@ const canonicalURL = `https://cinematen.be${Astro.url.pathname}`;
                                         <div class="featured-block">
                                             {allRnbPosts
                                                 .filter(post => post.frontmatter.featured)
-                                                .sort((a, b) => new Date(b.frontmatter.date) - new Date(a.frontmatter.date))
+                                                .sort((a, b) => new Date(b.frontmatter.date).getTime() - new Date(a.frontmatter.date).getTime())
                                                 .slice(0, 5)
                                                 .map((post) => (
                                                     <article>
@@ -100,8 +99,8 @@ const canonicalURL = `https://cinematen.be${Astro.url.pathname}`;
                                                             title={post.frontmatter.title}
                                                             thumbnail={post.frontmatter.thumbnail}
                                                             date={post.frontmatter.date}
-                                                            content={post.rawContent}
                                                             featured={post.frontmatter.featured}
+                                                            square={true}
                                                         />
                                                     </article>
                                                 ))}                                        
@@ -120,7 +119,7 @@ const canonicalURL = `https://cinematen.be${Astro.url.pathname}`;
                         <div class="w-layout-grid blog-grid">
                             <div class="content-left">
                                 {allRnbPosts
-                                    .sort((a, b) => new Date(b.frontmatter.date) - new Date(a.frontmatter.date))
+                                    .sort((a, b) => new Date(b.frontmatter.date).getTime() - new Date(a.frontmatter.date).getTime())
                                     .slice(0, 5)
                                     .map((post) => (
                                         <article>
@@ -131,7 +130,6 @@ const canonicalURL = `https://cinematen.be${Astro.url.pathname}`;
                                                 title={post.frontmatter.title}
                                                 thumbnail={post.frontmatter.thumbnail}
                                                 date={post.frontmatter.date}
-                                                content={post.rawContent}
                                                 summary={post.frontmatter.summary}
                                                 rating={post.frontmatter.rating}
                                             />
@@ -152,10 +150,12 @@ const canonicalURL = `https://cinematen.be${Astro.url.pathname}`;
                                                 .filter(post => post.frontmatter.rating !== undefined)
                                                 .filter(post => post.frontmatter.rating !== null)
                                                 .sort((a, b) => {
-                                                    if (b.frontmatter.rating !== a.frontmatter.rating) {
-                                                        return b.frontmatter.rating - a.frontmatter.rating;
+                                                    const ratingA = parseFloat(a.frontmatter.rating) || 0;
+                                                    const ratingB = parseFloat(b.frontmatter.rating) || 0;
+                                                    if (ratingB !== ratingA) {
+                                                        return ratingB - ratingA;
                                                     }
-                                                    return new Date(b.frontmatter.date) - new Date(a.frontmatter.date);
+                                                    return new Date(b.frontmatter.date).getTime() - new Date(a.frontmatter.date).getTime();
                                                 })
                                                 .slice(0, 5)
                                                 .map((post) => (
@@ -166,8 +166,8 @@ const canonicalURL = `https://cinematen.be${Astro.url.pathname}`;
                                                             title={post.frontmatter.title}
                                                             thumbnail={post.frontmatter.thumbnail}
                                                             date={post.frontmatter.date}
-                                                            content={post.rawContent}
                                                             featured={post.frontmatter.featured}
+                                                            square={true}
                                                         />
                                                     </article>
                                                 ))}
