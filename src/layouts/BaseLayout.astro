@@ -21,6 +21,15 @@ const allRnbPosts = await Astro.glob('../pages/reviews&blogs/*.mdx');
 // Generate canonical URL for homepage
 const canonicalURL = `https://cinematen.be${Astro.url.pathname}`;
 
+// Function to truncate content to 200 characters with "..."
+function truncateContent(content, maxLength = 200) {
+    if (!content || typeof content !== 'string') return '';
+    // Strip HTML tags and normalize whitespace
+    const text = content.replace(/<[^>]*>/g, '').replace(/\s+/g, ' ').trim();
+    if (text.length <= maxLength) return text;
+    return text.substring(0, maxLength).trim() + '...';
+}
+
 ---
 
 <html lang="nl">
@@ -72,6 +81,7 @@ const canonicalURL = `https://cinematen.be${Astro.url.pathname}`;
                                                 title={post.frontmatter.title}
                                                 thumbnail={post.frontmatter.thumbnail}
                                                 date={post.frontmatter.date}
+                                                content={truncateContent(post.rawContent())}
                                             />
                                         </article>
                                     ))}

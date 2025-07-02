@@ -11,8 +11,23 @@ function formatDate(dateString) {
     return timePart === '00:00' ? formattedDate : `${formattedDate} ${timePart}`; // Return only date if time is midnight, otherwise combine date and time
 }
 
+// Function to clean content for display
+function cleanContent(content) {
+    if (!content || typeof content !== 'string') return '';
+    // Remove markdown syntax and extra whitespace
+    return content
+        .replace(/---[\s\S]*?---/g, '') // Remove frontmatter
+        .replace(/#{1,6}\s+/g, '') // Remove markdown headers
+        .replace(/\[([^\]]+)\]\([^)]+\)/g, '$1') // Convert links to plain text
+        .replace(/\*\*([^*]+)\*\*/g, '$1') // Remove bold markdown
+        .replace(/\*([^*]+)\*/g, '$1') // Remove italic markdown
+        .replace(/\s+/g, ' ') // Normalize whitespace
+        .trim();
+}
+
 // Format the date
 const formattedDateTime = formatDate(date);
+const displayContent = cleanContent(content);
 
 ---
 
@@ -34,7 +49,7 @@ const formattedDateTime = formatDate(date);
             {title}
         </h3>
         <p class="paragraph-detials-medium" id="summary">
-            {content}
+            {displayContent}
         </p>
         <div class="date-time">
             <div class="normal-wrapper">
