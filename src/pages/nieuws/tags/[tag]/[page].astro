@@ -32,7 +32,7 @@ export async function getStaticPaths({ paginate }) {
     const routes = [];
     for (const [tag, posts] of tagMap.entries()) {
         const sortedPosts = posts.sort((a, b) => 
-            new Date(b.frontmatter.date) - new Date(a.frontmatter.date)
+            new Date(b.frontmatter.date).getTime() - new Date(a.frontmatter.date).getTime()
         );
         
         const paginatedPages = paginate(sortedPosts, {
@@ -110,9 +110,9 @@ exclude_from_search: true
                                 {start > 1 ? <span>... </span> : null}
                                 {Array.from({ length: end - start + 1 }, (_, i) => i + start).map(number =>
                                     number === currentPage ? (
-                                        <strong class="page-indicator" key={number}>{number}</strong>
+                                        <strong class="page-indicator">{number}</strong>
                                     ) : (
-                                        <a href={`/nieuws/tags/${tag}/${number}`} key={number}>{number}</a>
+                                        <a href={`/nieuws/tags/${tag}/${number}`}>{number}</a>
                                     )
                                 )}
                                 {end < totalPages ? <span> ...</span> : null}

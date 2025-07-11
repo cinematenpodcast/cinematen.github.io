@@ -33,7 +33,7 @@ exclude_from_search: true
                     <h1 class="nieuws-title">Film & TV nieuws</h1>
                     <div class="w-layout-grid nieuws-list">
                         {filteredPosts
-                            .sort((a, b) => new Date(b.frontmatter.date) - new Date(a.frontmatter.date)) // Sort by date, newest to oldest
+                            .sort((a, b) => new Date(b.frontmatter.date).getTime() - new Date(a.frontmatter.date).getTime()) // Sort by date, newest to oldest
                             .map((post) => (
                                 <BaseNieuwsItem
                                     key={post.url}
