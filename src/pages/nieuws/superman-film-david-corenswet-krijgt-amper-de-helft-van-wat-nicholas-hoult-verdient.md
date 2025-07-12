@@ -1,7 +1,6 @@
 ---
 layout: ../../layouts/NieuwsLayout.astro
-title: Superman film David Corenswet krijgt amper de helft van wat Nicholas Hoult
-verdient
+title: Superman film David Corenswet krijgt amper de helft van wat Nicholas Hoult verdient
 date: 2025-07-12T00:14:53.453+02:00
 soort: 'Film'
 thumbnail: '/images/article-images/l-intro-1752265617.jpg'
