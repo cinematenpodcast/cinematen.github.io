@@ -1,6 +1,6 @@
 ---
 layout: ../../layouts/NieuwsLayout.astro
-title: "And Just Like That…" eindigt met een tweedelige finale
+title: And Just Like That… eindigt met een tweedelige finale
 date: 2025-08-01T21:13:19.555+02:00
 soort: 'TV'
 thumbnail: '/images/article-images/l-intro-1754074090.jpg'
