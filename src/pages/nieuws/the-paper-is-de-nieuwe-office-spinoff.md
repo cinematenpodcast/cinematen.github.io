@@ -1,6 +1,6 @@
 ---
 layout: ../../layouts/NieuwsLayout.astro
-title: "The Paper" is de nieuwe Office spin-off
+title: The Paper is de nieuwe Office spin-off
 date: 2025-08-07T18:12:49.927+02:00
 soort: 'TV'
 thumbnail: '/images/article-images/l-intro-1754582344.jpg'
