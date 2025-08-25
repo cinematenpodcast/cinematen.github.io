@@ -1,5 +1,5 @@
 ---
-const { title, url, thumbnail, rating, square } = Astro.props;
+const { title, url, thumbnail, rating, square, asLink } = Astro.props;
 
 // Functie om sterren te genereren
 function generateStarRating(rating) {
@@ -24,27 +24,53 @@ function generateStarRating(rating) {
 const showStars = rating !== undefined && rating !== null && rating > 0;
 const starRatingImages = showStars ? generateStarRating(rating) : [];
 ---
-<div class="featured-item-horizontal">
-  <div class={`featured-thumb-wrapper${square ? ' square' : ''}`}>
-    <div class={`thumb-aspect-box${square ? ' square' : ''}`}>
-      <img
-        src={thumbnail}
-        alt="feature-thumbnail"
-        class="featured-thumb-img"
-      />
+{asLink ? (
+  <a href={url} class="featured-card-link">
+    <div class="featured-item-horizontal">
+      <div class={`featured-thumb-wrapper${square ? ' square' : ''}`}>
+        <div class={`thumb-aspect-box${square ? ' square' : ''}`}>
+          <img
+            src={thumbnail}
+            alt="feature-thumbnail"
+            class="featured-thumb-img"
+          />
+        </div>
+      </div>
+      <div class="featured-content-box">
+        <div class="title-small-horizontal">{title}</div>
+        {showStars && (
+          <div class="star-row-horizontal">
+            {starRatingImages.map(starImage => (
+              <img src={starImage} loading="eager" alt="ster" class="star-image-horizontal" />
+            ))}
+          </div>
+        )}
+      </div>
+    </div>
+  </a>
+) : (
+  <div class="featured-item-horizontal">
+    <div class={`featured-thumb-wrapper${square ? ' square' : ''}`}>
+      <div class={`thumb-aspect-box${square ? ' square' : ''}`}>
+        <img
+          src={thumbnail}
+          alt="feature-thumbnail"
+          class="featured-thumb-img"
+        />
+      </div>
+    </div>
+    <div class="featured-content-box">
+      <div class="title-small-horizontal">{title}</div>
+      {showStars && (
+        <div class="star-row-horizontal">
+          {starRatingImages.map(starImage => (
+            <img src={starImage} loading="eager" alt="ster" class="star-image-horizontal" />
+          ))}
+        </div>
+      )}
     </div>
   </div>
-  <div class="featured-content-box">
-    <div class="title-small-horizontal">{title}</div>
-    {showStars && (
-      <div class="star-row-horizontal">
-        {starRatingImages.map(starImage => (
-          <img src={starImage} loading="eager" alt="ster" class="star-image-horizontal" />
-        ))}
-      </div>
-    )}
-  </div>
-</div>
+)}
 
 <style>
 .featured-item-horizontal {
@@ -57,6 +83,20 @@ const starRatingImages = showStars ? generateStarRating(rating) : [];
   box-shadow: none;
   border-radius: 0;
   transition: none;
+}
+/* Anchor wrapper for clickable cards */
+.featured-card-link {
+  display: block;
+  text-decoration: none;
+  color: inherit;
+  background: transparent;
+  padding: 0;
+  border-radius: 0;
+  box-shadow: none;
+  transition: transform 0.18s cubic-bezier(.4,0,.2,1);
+}
+.featured-card-link:hover {
+  transform: translateY(-2px) scale(1.025);
 }
 .featured-thumb-wrapper {
   flex: 0 0 120px;
