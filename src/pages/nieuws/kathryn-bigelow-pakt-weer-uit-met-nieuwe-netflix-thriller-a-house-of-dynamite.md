@@ -4,7 +4,7 @@ title: Kathryn Bigelow pakt weer uit met nieuwe Netflix thriller A House of Dyna
 date: 2025-09-04T14:04:24.983+02:00
 soort: 'Film'
 thumbnail: '/images/article-images/l-intro-1756927667.jpg'
-trailer: ""
+trailer: "https://www.youtube.com/watch?v=0w6wUqWU3yU"
 slug: 'kathryn-bigelow-pakt-weer-uit-met-nieuwe-netflix-thriller-a-house-of-dynamite'
 tags: ["Film"]
 ---
