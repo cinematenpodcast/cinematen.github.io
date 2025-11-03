@@ -1,6 +1,6 @@
 ---
 layout: ../../layouts/NieuwsLayout.astro
-title: 28 Years Later The Bone Temple wordt de engste film van 2026!
+title: "28 Years Later The Bone Temple wordt de engste film van 2026!
 date: 2025-09-03T13:41:08.514+02:00
 soort: 'Film'
 thumbnail: '/images/article-images/l-intro-1756897353.jpg'
