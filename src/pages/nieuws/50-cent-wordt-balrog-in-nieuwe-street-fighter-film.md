@@ -1,6 +1,6 @@
 ---
 layout: ../../layouts/NieuwsLayout.astro
-title: 50 Cent wordt Balrog in nieuwe Street Fighter film
+title: "50 Cent wordt Balrog in nieuwe Street Fighter film
 date: 2025-09-16T22:26:38.350+02:00
 soort: 'Film'
 thumbnail: '/images/article-images/l-intro-1758053330.jpg'
