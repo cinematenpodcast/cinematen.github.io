@@ -1,11 +1,11 @@
 ---
 layout: ../../layouts/NieuwsLayout.astro
-title: Keeper Osgood Perkins mixt alle horrorgenres in één film
+title: Osgood Perkins mixt alle horrorgenres in één film
 date: 2025-11-11T14:17:19.795+01:00
 soort: 'Film'
 thumbnail: '/images/article-images/l-intro-1762823489.jpg'
-trailer: ""
-slug: 'keeper-osgood-perkins-mixt-alle-horrorgenres-in-n-film'
+trailer: "L1EeA-OihKA"
+slug: 'osgood-perkins-mixt-alle-horrorgenres-in-een-film'
 tags: ["Film"]
 ---
 
@@ -65,8 +65,3 @@ Osgood Perkins te zien, na The Monkey die eerder dit jaar verscheen. Perkins
 heeft aangegeven graag verschillende soorten verhalen te vertellen, en elke film
 heeft een andere stijl en sfeer. Keeper lijkt zijn meest gevarieerde film tot nu
 toe te worden.
-
-Voor ons, horrorfans die houden van verrassende films, lijkt Keeper een
-interessante keuze. Door de mix van genres blijft de film onvoorspelbaar. Het is
-geen standaard horrorverhaal, maar een film die constant verandert,
-bijeengehouden door Perkins’ kenmerkende, angstige sfeer.
