@@ -4,7 +4,7 @@ title: Hunger Games Sunrise on the Reaping komt eraan
 date: 2025-11-20T16:17:32.479+01:00
 soort: 'film'
 thumbnail: 'https://login.wabliefteru.be/assets/731fb793-e795-4bb5-9cff-e33ac2896e46'
-trailer: ""
+trailer: "MPjxijuBuSo"
 slug: 'hunger-games-sunrise-on-the-reaping-komt-eraan'
 ---
 
@@ -50,16 +50,8 @@ verhaalvertellers.
 
 Er is al een eerste teaser getoond met een vulkaan, een slang en een spotgaai
 die uit de vlammen komen. Een stem die lijkt op Woody Harrelson zegt: "Ik denk
-dat deze spelen anders zullen zijn."
+dat deze spelen anders zullen zijn." Nu is er ook een trailer uitgekomen.
 
 Nina Jacobson en Brad Simpson van Color Force produceren de film, net zoals bij
-alle vorige Hunger Games films. Het script wordt geschreven door Billy Ray, die
+alle vorige Hunger Games films. Het script werd geschreven door Billy Ray, die
 ook meeschreef aan de allereerste film.
-
-Voor ons die alle films in verhaalvolgorde willen kijken: begin met The Ballad
-of Songbirds and Snakes, dan Sunrise on the Reaping wanneer die uitkomt, en dan
-de originele vier films.
-
-Er worden nog steeds nieuwe acteurs toegevoegd aan de cast. Recent zijn Iris
-Apatow en Edvin Ryding aangekondigd als leden van het stylingteam van Haymitch.
-Er was ook een open auditie waar mensen konden meedoen om in de film te komen.
