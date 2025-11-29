@@ -1,0 +1,79 @@
+---
+import BaseHeadNieuws from "../components/BaseHeadNieuws.astro";
+import NewNavmenu from "../components/NewNavmenu.astro";
+import BaseHeader from "../components/BaseHeader.astro";
+import BaseFooter from "../components/BaseFooter.astro";
+import BaseScript from "../components/BaseScript.astro";
+import BasePodcastBanner from "../components/BasePodcastBanner.astro";
+const { frontmatter } = Astro.props;
+
+// Generate canonical URL
+const canonicalURL = `https://cinematen.be${Astro.url.pathname}`;
+
+// Function to format the date and adjust for timezone
+function formatDate(dateString) {
+    const date = new Date(dateString);
+    if (isNaN(date.getTime())) return ""; // Return empty string if date is invalid
+    const options = {
+        timeZone: "UTC",
+        hour12: false
+    }; // Set the timezone to UTC
+    const formattedDate = date.toLocaleDateString("nl-NL", {
+        day: "2-digit",
+        month: "2-digit",
+        year: "numeric",
+    });
+    const timePart = date.toLocaleTimeString("nl-NL", options);
+    return timePart === "00:00"
+        ? formattedDate
+        : `${formattedDate} ${timePart}`; // Return only date if time is midnight, otherwise combine date and time
+}
+
+// Format the date
+const formattedDateTime = formatDate(frontmatter.date);
+---
+
+<html lang="nl">
+    <head>
+        
+      <BaseHeadNieuws
+          title={frontmatter.title}
+          thumbnail={frontmatter.thumbnail} 
+          content={frontmatter.summary}
+          canonicalURL={canonicalURL}
+          publishedDate={frontmatter.date}
+          modifiedDate={frontmatter.date}
+          author="Yorrick"
+        />
+        <!-- Note: BaseHeadNieuws might use thumbnail for OG tags, which is fine even if not displayed on page -->
+      
+    </head>
+    <body class="body">
+        <div class="page-wrapper">
+            <NewNavmenu />
+            <BaseHeader />
+            <div
+                data-w-id="75dba001-0326-9ad8-ca3e-3734b81d7ff9"
+                class="content"
+            >
+                <div class="container">
+                    <div class="content-left">
+                        <div class="blog-post-container" style="width: 100%">
+                            <!-- Title removed as requested -->
+                            <div
+                                id="w-node-_2957b33b-ee9d-a9a8-80b3-56ea90e637f9-01535055"
+                                class="blog-text w-richtext"
+                            >
+                                <slot />     
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <BasePodcastBanner />
+            <BaseFooter />
+        </div>
+        <BaseScript />
+    </body>
+</html>
+
