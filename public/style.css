@@ -2629,13 +2629,13 @@ figcaption {
   background-repeat: repeat;
   background-size: auto;
   margin-top: -6rem;
-  padding-top: 3rem; /* Increased from 2rem */
-  padding-bottom: 1rem; /* Added padding */
+  padding-top: 5rem; /* Increased padding top */
+  padding-bottom: 2rem; /* Adjusted padding bottom */
   box-shadow: 0 17px 20px 5px rgba(0, 0, 0, .19);
 }
 
 .header_content {
-  grid-column-gap: 50px;
+  grid-column-gap: 20px;
   grid-row-gap: 50px;
   justify-content: center;
   align-items: center;
@@ -3368,7 +3368,7 @@ margin-top: 10px;
   flex-flow: column;
   justify-content: flex-end;
   align-items: flex-start;
-  padding-top: 143px;
+  padding-top: 20px;
   display: flex;
 }
 
@@ -3389,6 +3389,7 @@ margin-top: 10px;
   color: var(--night);
   text-align: center;
   margin-bottom: 3rem;
+  font-size: 3rem;
 }
 
 .nieuws-title.list-nieuws {
@@ -3864,11 +3865,11 @@ margin-top: 10px;
   }
 
   .cinematen-logo-text {
-    font-size: 2.8rem;
+    font-size: 2.2rem;
   }
 
   .header-text {
-    padding-top: 95px;
+    padding-top: 50px;
   }
 
   .cinematen-tagline {
@@ -4892,14 +4893,14 @@ a {
   justify-content: center; /* Center-align the content */
   align-items: baseline; /* Align content to the text baseline */
   margin-bottom: 0px; /* Space between this and the next line */
-  font-size: 26px; /* Adjust text size */
+  font-size: 14px; /* Adjust text size */
   color: #fff; /* Text color */
   font-weight: bold; /* Optional bold style */
   gap: 10px; /* Consistent spacing between elements */
 }
 
 .partner-logo {
-  width: 70px; /* Slightly reduce width for better alignment */
+  width: 50px; /* Slightly reduce width for better alignment */
   height: auto; /* Maintain aspect ratio */
   margin: 0 5px; /* Adjust spacing around the logo */
   vertical-align: baseline; /* Align the bottom of the logo with the text baseline */
@@ -4911,13 +4912,13 @@ a {
   margin-top: 0px;
   margin-left: 0; /* Reset margin adjustment */
   padding-left: 0; /* Reset padding */
-  font-size: 53px; /* Adjust font size */
+  font-size: 32px; /* Adjust font size */
 }
 
 .cinematen-tagline {
   text-align: center; /* Center-align tagline */
   margin-top: 0px;
-  font-size: 23px; /* Adjust font size */
+  font-size: 14px; /* Adjust font size */
 }
 
 /* Mobile devices */
