@@ -49,6 +49,17 @@ const formattedDateTime = formatDate(frontmatter.date);
       
     </head>
     <body class="body">
+        <script>
+            document.addEventListener('DOMContentLoaded', () => {
+                const links = document.querySelectorAll('.blog-text a');
+                links.forEach(link => {
+                    if (link.hostname !== window.location.hostname) {
+                        link.target = '_blank';
+                        link.rel = 'noopener noreferrer';
+                    }
+                });
+            });
+        </script>
         <div class="page-wrapper">
             <NewNavmenu />
             <BaseHeader />
