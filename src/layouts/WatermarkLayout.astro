@@ -85,6 +85,44 @@ const formattedDateTime = formatDate(frontmatter.date);
             <BaseFooter />
         </div>
         <BaseScript />
+        <style is:global>
+            /* Override default rich text figure width for this specific layout on mobile */
+            @media screen and (max-width: 767px) {
+                .w-richtext figure,
+                .w-richtext .w-richtext-figure-type-image,
+                .w-richtext figure.w-richtext-figure-type-image {
+                    max-width: 100% !important;
+                    width: 100% !important;
+                    margin-left: 0 !important;
+                    margin-right: 0 !important;
+                }
+                
+                .w-richtext figure img,
+                .w-richtext img {
+                    width: 100% !important;
+                    max-width: 100% !important;
+                    height: auto !important;
+                }
+
+                .blog-post-container {
+                    padding-left: 20px !important;
+                    padding-right: 20px !important;
+                    width: 100% !important;
+                    box-sizing: border-box !important;
+                }
+                
+                /* Fix any potential overflow or constraint from parent containers */
+                .content-left {
+                     width: 100% !important;
+                }
+
+                /* Ensure long URLs break on mobile */
+                .blog-text {
+                    word-break: break-word;
+                    overflow-wrap: break-word;
+                }
+            }
+        </style>
     </body>
 </html>
 
