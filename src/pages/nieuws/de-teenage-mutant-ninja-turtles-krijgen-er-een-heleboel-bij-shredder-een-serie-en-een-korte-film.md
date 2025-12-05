@@ -1,7 +1,7 @@
 ---
 layout: ../../layouts/NieuwsLayout.astro
-title: De Teenage Mutant Ninja Turtles krijgen er een heleboel bij Shredder, een serie
-en een korte film
+title: "De Teenage Mutant Ninja Turtles krijgen er een heleboel bij Shredder, een serie
+en een korte film"
 date: 2025-12-05T18:19:32.157+01:00
 soort: 'Film'
 thumbnail: '/images/article-images/l-intro-1764887436.jpg'
