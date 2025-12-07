@@ -1,11 +1,11 @@
 ---
 layout: ../../layouts/NieuwsLayout.astro
-title: The Boys seizoen 5 is het laatste hier komt het op neer
+title: The Boys seizoen 5 heeft een teaser
 date: 2025-12-07T19:23:15.809+01:00
 soort: 'film'
 thumbnail: 'https://login.wabliefteru.be/assets/b5a7ee6e-89cc-4e32-84a4-86dfd583fbce'
 trailer: "Fv0leN8TmR8"
-slug: 'the-boys-seizoen-5-is-het-laatste-hier-komt-het-op-neer'
+slug: 'the-boys-seizoen-5-heeft-een-teaser'
 ---
 
 Prime Video heeft de releasedata bekendgemaakt voor het vijfde en meteen laatste
@@ -41,11 +41,3 @@ waarschijnlijk geen vervolg. Er zijn twee nieuwe series in ontwikkeling: Vought
 Rising, een prequel onder leiding van Paul Grellong, en The Boys: Mexico,
 gemaakt door Diego Luna en Gael García Bernal, met een script van Gareth
 Dunnet-Alcocer.
-
-Het vijfde seizoen wordt geproduceerd door Sony Pictures Television en Amazon
-MGM Studios. De serie wordt in meer dan 240 landen gekeken en heeft meerdere
-Emmy Awards gewonnen.
-
-Wij kunnen de serie volgen op sociale media via @TheBoysTV op Instagram,
-Facebook, X (voorheen Twitter) en TikTok. Voor de pers is er een speciale
-website met informatie over het vijfde seizoen.
