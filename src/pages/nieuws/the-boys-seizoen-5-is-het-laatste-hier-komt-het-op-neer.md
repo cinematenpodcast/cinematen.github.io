@@ -4,7 +4,7 @@ title: The Boys seizoen 5 is het laatste hier komt het op neer
 date: 2025-12-07T19:23:15.809+01:00
 soort: 'film'
 thumbnail: 'https://login.wabliefteru.be/assets/b5a7ee6e-89cc-4e32-84a4-86dfd583fbce'
-trailer: ""
+trailer: "Fv0leN8TmR8"
 slug: 'the-boys-seizoen-5-is-het-laatste-hier-komt-het-op-neer'
 ---
 
