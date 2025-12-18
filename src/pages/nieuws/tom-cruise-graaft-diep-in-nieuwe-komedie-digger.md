@@ -4,7 +4,7 @@ title: Tom Cruise graaft diep in nieuwe komedie Digger
 date: 2025-12-18T22:31:04.359+01:00
 soort: 'film'
 thumbnail: 'https://login.wabliefteru.be/assets/0d9550a9-f532-4f4f-bf60-1579a81b362e'
-trailer: ""
+trailer: "CAI-mIvLbXk"
 slug: 'tom-cruise-graaft-diep-in-nieuwe-komedie-digger'
 ---
 
