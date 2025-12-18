@@ -1,11 +1,11 @@
 ---
 layout: ../../layouts/NieuwsLayout.astro
-title: Disclosure Day Spielberg pakt opnieuw uit met aliens
+title: Spielberg pakt opnieuw uit met aliens in Disclosure Day 
 date: 2025-12-18T23:02:31.628+01:00
 soort: 'film'
 thumbnail: 'https://login.wabliefteru.be/assets/0bb12636-132e-4c98-94f2-0ef3af62d854'
-trailer: ""
-slug: 'disclosure-day-spielberg-pakt-opnieuw-uit-met-aliens'
+trailer: "UFe6NRgoXCM"
+slug: 'spielberg-pakt-opnieuw-uit-met-aliens-in-disclosure-day'
 ---
 
 De eerste trailer voor Steven Spielbergs nieuwe film Disclosure Day is er. Deze
@@ -54,10 +54,6 @@ alleen zijn. Deze film verkent die overtuiging. De productie is erg geheim
 gehouden, wat tot veel online speculatie heeft geleid. Sommigen denken zelfs dat
 zijn films ons voorbereiden op een officiële onthulling. Scenarioschrijver David
 Koepp wil niets verklappen over een mogelijk verband met Close Encounters.
-
-Wij zijn in ieder geval blij met deze eerste beelden. Op YouTube verschijnen
-reacties als "Spielberg slaat weer toe!" en "Spielberg en aliens! Ja!". We
-kijken er naar uit om hem opnieuw in dit genre te zien.
 
 De film is opgenomen in en rond New Jersey. De trailer toont nog geen aliens of
 UFO's, maar de hints zijn overduidelijk. We moeten nog even geduld hebben tot
