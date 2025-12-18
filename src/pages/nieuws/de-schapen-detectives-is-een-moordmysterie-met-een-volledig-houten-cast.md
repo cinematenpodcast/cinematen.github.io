@@ -1,11 +1,11 @@
 ---
 layout: ../../layouts/NieuwsLayout.astro
-title: De Schapen Detectives is een moordmysterie met een volledig houten cast
+title: De Sheep Detectives is een moordmysterie met een volledig schapen cast
 date: 2025-12-18T20:18:34.247+01:00
 soort: 'film'
 thumbnail: 'https://login.wabliefteru.be/assets/dcaf7d59-86e3-41ae-9e35-b527cdeb165b'
-trailer: ""
-slug: 'de-schapen-detectives-is-een-moordmysterie-met-een-volledig-houten-cast'
+trailer: "pyZI5oM6hWk"
+slug: 'de-scheep-detectives-is-een-moordmysterie-met-een-volledig-schapen-cast'
 ---
 
 Er komt een grappige nieuwe film aan genaamd 'De Schapen Detectives'. Hierin
