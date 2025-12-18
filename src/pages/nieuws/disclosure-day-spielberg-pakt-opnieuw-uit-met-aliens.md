@@ -42,7 +42,7 @@ zijn. De populaire documentaire The Age of Disclosure op Amazon Prime Video, die
 overheidgeheimen rond aliens behandelt, sluit hier naadloos bij aan.
 
 De marketing is al gestart met grote billboards in New York en Los Angeles
-waarop "Alles wordt bekend gemaakt" staat. De trailer draait momenteel in de
+waarop "Alles wordt bekend gemaakt" staat. De trailer draait momenteel in Amerika in de
 bioscoop voor Avatar: Fire and Ash.
 
 Disclosure Day komt uit op 12 juni 2026. Die zomer is bomvol grote films zoals
