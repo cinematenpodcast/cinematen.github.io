@@ -4,7 +4,7 @@ title: Avengers Doomsday Geen teasers, maar verhalen en aanwijzingen
 date: 2026-01-14T12:55:49.044+01:00
 soort: 'film'
 thumbnail: 'https://login.wabliefteru.be/assets/ab168fb1-93e1-4e2a-b564-4ea573fb29ed'
-trailer: ""
+trailer: "a4fsh63FKdM"
 slug: 'avengers-doomsday-geen-teasers-maar-verhalen-en-aanwijzingen'
 ---
 
